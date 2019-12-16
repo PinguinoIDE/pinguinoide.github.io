@@ -22,36 +22,19 @@
         <meta name="revisit-after" content="7 days">
         <meta name="identifier-url" content="http://www.pinguino.cc">
         <meta name="coverage" content="worldwide">
-        <meta name="google-site-verification" content="1wj77bqqyxatzeqMboas0eMqeCCeamyMnKhWf1vfu8I" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <meta http-equiv="reply-to" content="rblanchot@gmail.com">
 
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic' rel='stylesheet' type='text/css'>
         <link href='img/icone.png' rel="shortcut icon" type="image/x-icon">
         <link href='css/pinguino.css' rel="stylesheet" type="text/css" charset="utf-8">
-
-        <!-- Load Facebook SDK for JavaScript -->
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
     </head>
 
     <body>
         <div id="menu">
             <a href="index.php"><img src=img/icons/home.svg alt="home"></a></li>
-            <!-- 
-		<a href="http://shop.pinguino.cc"><img src=img/icons/shop.svg alt="shop"></a>
-            -->
-            <a href="download.php"><img src=img/icons/download.svg alt="download"></a>
             <a href="http://wiki.pinguino.cc"><img src=img/icons/wiki.svg alt="wiki"></a>
             <a href="http://forum.pinguino.cc"><img src=img/icons/forum.svg alt="forum"></a>
             <a href="http://blog.pinguino.cc"><img src=img/icons/blog.svg alt="blog"></a>
-            <a href="contact.php"><img src=img/icons/contact.svg alt="contact"></a>
         </div>
 
         <div id="header">
@@ -68,28 +51,9 @@
             <div id="cell"><img src=img/icons/os.svg><br>Multi-platform : 32- and 64-bit GNU/Linux, Windows and Mac OS X</div>
             <div id="cell"><img src=img/icons/usb.svg><br>USB bootloader</div>
             <div id="cell"><img src=img/icons/peripherals.svg><br>Multi peripherals on board (USB, Serial, SPI, I2C, ...)</div>
-            <div id="cell"><img src=img/icons/group.svg><br>Great supportive community</div>
-            <h1><a href="download.php"><img src=img/download.png width=30%></a></h1>
         </div>
 
         <div id="footer">
-            <!--
-            <div class="centre">
-                <h1>Latest News</h1>
-                < ?php
-                    include_once("wpget/wpget.php");
-                    $wpget = new wpGet;
-                    $wpget->dateformat = "d/m/Y";
-                    $wpget->showcredit = false;
-                    $wpget->showauthor = false;
-                    $wpget->showcomment = false;
-                    // function getWordpressEntries($number = 5, $chars = 300, $stripimages = true, $stripembed = true, $stripscript = true, $striplinks = false)
-                    $wpget->getWordpressEntries(5, 40, true, false, false, false);
-                ?>
-            </div>
-            -->
-            <?php include "socialnetwork.inc"; ?>
-            <p>v0.9 <?php print "last updated : ".date("d-m-Y", getlastmod()) ?></p>
             <p>Content is available under <a href="http://www.gnu.org/licenses/lgpl.html">LGPL</a></p>
             <p>WordPress integration powered by <a href="http://peter.upfold.org.uk/projects/wpget">WPGet</a> by Peter Upfold.</p>
             </br>
