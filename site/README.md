@@ -10,14 +10,14 @@ features:
 - title: Open Source
   details: Open Source Hardware platform. A PCB that you can build yourself.
 - title: Cross Platform
-  details: 32 and 64-bit GNU/Linux, Windows and Mac OS X packages.
+  details: 32 and 64-bit GNU/Linux and Windows packages.
 - title: Powerful IDE
   details: Powerful Integrated Development Environement (IDE)
 - title: Diverse
   details: Support a wide range of Microchip 8 and 32-bit microcontrollers.
 - title: Multi-Peripherals
   details: Native USB, Serial, I2C, SPI, PWM and more, out-of-the-box.
-footer: Pinguino Project | Copyright © 2018-present Regis Blanchot
+footer: Copyright © Regis Blanchot | This site was made with Vuepress + Netlify + Cloudflare + Coffee + Love
 ---
 
 ## As Easy as 1, 2, 3
