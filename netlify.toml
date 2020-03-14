@@ -12,3 +12,10 @@
 
   # Production build command.
   command = "echo 'Production context'"
+
+# Staging context
+[context.staging]
+
+  # Staging build command.
+  command = "echo 'Staging context'"
+
