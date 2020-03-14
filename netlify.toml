@@ -10,8 +10,11 @@
 # Production context
 [context.production]
 
-  # Production build command.
-  command = "echo 'Production context'"
+  # Staging build command.
+  command = "yarn build"
+
+  # Directory that contains the deploy-ready files.
+  publish = "site/.vuepress/dist"
 
 # Staging context
 [context.staging]
