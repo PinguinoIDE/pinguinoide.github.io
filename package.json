@@ -9,5 +9,8 @@
   "scripts": {
     "start": "vuepress dev site",
     "build": "vuepress build site"
+  },
+  "dependencies": {
+    "vuepress": "*"
   }
 }
