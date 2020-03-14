@@ -11,6 +11,7 @@
     "build": "vuepress build site"
   },
   "dependencies": {
-    "vuepress": "*"
+    "vuepress": "*",
+    "@vuepress/plugin-google-analytics": "*"
   }
 }
