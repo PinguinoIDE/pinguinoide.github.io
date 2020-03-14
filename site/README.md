@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: /pinguino-logo.png
 heroText: Pinguino Project
 features:
 - title: Easy
