@@ -1,0 +1,14 @@
+# Netlify project configuration
+[build]
+
+  # Directory to change to before starting a build.
+  base = "/"
+
+  # Directory that contains the deploy-ready files.
+  publish = "/"
+
+# Production context
+[context.production]
+
+  # Production build command.
+  command = "echo 'Production context'"
