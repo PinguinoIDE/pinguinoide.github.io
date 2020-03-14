@@ -17,5 +17,7 @@
 [context.staging]
 
   # Staging build command.
-  command = "echo 'Staging context'"
+  command = "yarn build"
 
+  # Directory that contains the deploy-ready files.
+  publish = ".vuepress/dist"
