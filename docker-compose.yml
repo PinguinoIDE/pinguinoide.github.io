@@ -1,0 +1,17 @@
+version: "3"
+
+networks:
+  lan:
+
+services:
+  pinguino-cc:
+    build: .
+    container_name: pinguino-cc
+    working_dir: /usr/src
+    command: ["yarn", "start"]
+    networks:
+      - lan
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/usr/src/

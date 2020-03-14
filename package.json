@@ -1,0 +1,13 @@
+{
+  "name": "pinguino-cc",
+  "version": "1.0.0",
+  "description": "Pinguino project website",
+  "main": "index.js",
+  "author": "Victor Villarreal",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "vuepress dev site",
+    "build": "vuepress build site"
+  }
+}
