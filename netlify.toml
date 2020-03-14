@@ -20,4 +20,4 @@
   command = "yarn build"
 
   # Directory that contains the deploy-ready files.
-  publish = ".vuepress/dist"
+  publish = "site/.vuepress/dist"
