@@ -42,5 +42,5 @@ void loop() {
 
 | Operating System  |   Version   |   Link   |
 | ----------------- |:-----------:| :-------:|
-| Windows           | v1.7.1.4    | [Donwload](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/Pinguino-installer-v1.7.1.4.exe) |
-| GNU/Linux         | v1.3.3      | [Donwload](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/pinguino-installer-v1.3.3.sh) |
+| Windows           | v1.7.1.4    | [Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/Pinguino-installer-v1.7.1.4.exe) |
+| GNU/Linux         | v1.3.3      | [Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/pinguino-installer-v1.3.3.sh) |
