@@ -20,6 +20,10 @@ features:
 footer: Copyright © Regis Blanchot | This site was made with Vuepress + Netlify + Cloudflare + Coffee + Love
 ---
 
+::: TIP New language available!
+Disponible la versión en Español del sitio. [Ver ahora](/es/)
+:::
+
 ## As Easy as 1, 2, 3
 
 ```processing

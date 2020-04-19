@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /pinguino-logo.png
-heroText: Projecto Pinguino
+heroText: Proyecto Pinguino
 actionText: Descargar =>
 actionLink: /#descargar
 features:
@@ -12,11 +12,11 @@ features:
 - title: Multi Plaraforma
   details: Paquetes de 32 y 64-bits, GNU/Linux y Windows.
 - title: IDE Poderoso
-  details: Poderoso Entorno de Desarrollo Integrado (IDE)
+  details: Poderoso Entorno de Desarrollo Integrado (IDE) basado en Python.
 - title: Diverso
   details: Soporta un amplio rango de microcontroladores Microchip de 8 y 32-bits.
 - title: Multiples Periféricos
-  details: USB nativo, Serial, I2C, SPI, PWM y más, listo para usar.
+  details: USB nativo, Serial, I2C, SPI, PWM y más, todo listo para usar.
 footer: Copyright © Regis Blanchot | Este sitio = Vuepress + Netlify + Cloudflare + Coffee + Love
 ---
 
@@ -35,9 +35,9 @@ void setup() {
 void loop() {
 
   digitalWrite(LED_BUILTIN, HIGH);   // enciende el LED (HIGH es el nivel de voltaje)
-  delay(1000);                       // esperar un segundo
-  digitalWrite(LED_BUILTIN, LOW);    // apagar el LED haciendo el voltaje LOW
-  delay(1000);                       // esperar un segundo
+  delay(1000);                       // espera un segundo
+  digitalWrite(LED_BUILTIN, LOW);    // apaga el LED haciendo el voltaje LOW
+  delay(1000);                       // espera un segundo
 }
 ```
 
