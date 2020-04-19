@@ -20,10 +20,6 @@ features:
 footer: Copyright © Regis Blanchot | This site was made with Vuepress + Netlify + Cloudflare + Coffee + Love
 ---
 
-::: tip New language available!
-Disponible la versión en Español del sitio. [Ver ahora](/es/)
-:::
-
 ## As Easy as 1, 2, 3
 
 ```processing
@@ -48,3 +44,9 @@ void loop() {
 | ----------------- |:-----------:| :-------:|
 | Windows           | v1.7.1.4    | [Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/Pinguino-installer-v1.7.1.4.exe) |
 | GNU/Linux         | v1.3.3      | [Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/pinguino-installer-v1.3.3.sh) |
+
+## News
+
+::: tip 2020-04-19 New language available!
+60% of all our visitors are from Latin America, so... Ya está disponible la versión en Español del sitio. [Ver ahora!](/es/)
+:::
