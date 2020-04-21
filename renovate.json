@@ -1,0 +1,8 @@
+{
+  "assignees": [
+    "mefhigoseth"
+  ],
+  "extends": [
+    "config:base"
+  ]
+}
