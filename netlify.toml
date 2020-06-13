@@ -4,21 +4,6 @@
   # Directory to change to before starting a build.
   base = "/"
 
-  # Directory that contains the deploy-ready files.
-  publish = "/"
-
-# Production context
-[context.production]
-
-  # Staging build command.
-  command = "yarn build"
-
-  # Directory that contains the deploy-ready files.
-  publish = "site/.vuepress/dist"
-
-# Staging context
-[context.staging]
-
   # Staging build command.
   command = "yarn build"
 
