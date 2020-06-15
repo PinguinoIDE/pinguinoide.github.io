@@ -24,6 +24,7 @@ module.exports = {
     lastUpdated: true,
     nav: [
       { text: 'News', link: '/news/' },
+      { text: 'Join Us', link: '/join-us/' },
     ],
     sidebar: {
       '/news/': getSideBar('news', 'News'),
