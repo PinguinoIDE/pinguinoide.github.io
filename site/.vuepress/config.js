@@ -1,3 +1,6 @@
+const fs = require("fs");
+const path = require("path");
+
 module.exports = {
   title: 'Pinguino project',
   description: 'Physical computing for everyone',
@@ -13,6 +16,19 @@ module.exports = {
       description: 'Computación física para todos',
     }
   },
+  themeConfig: {
+    repo: 'PinguinoIDE/pinguino-ide',
+    docsRepo: 'PinguinoIDE/pinguinoide.github.io',
+    docsDir: 'site',
+    editLinks: true,
+    lastUpdated: true,
+    nav: [
+      { text: 'News', link: '/news/' },
+    ],
+    sidebar: {
+      '/news/': getSideBar('news', 'News'),
+    }
+  },
   plugins: [
     [
       '@vuepress/google-analytics',
@@ -21,4 +37,20 @@ module.exports = {
       }
     ]
   ]
+};
+
+// Thanks to https://techformist.com/automatic-dynamic-sidebar-vuepress/
+function getSideBar(folder, title) {
+  const extension = [".md"];
+
+  const files = fs
+    .readdirSync(path.join(`${__dirname}/../${folder}`))
+    .filter(
+      item =>
+        item.toLowerCase() != "readme.md" &&
+        fs.statSync(path.join(`${__dirname}/../${folder}`, item)).isFile() &&
+        extension.includes(path.extname(item))
+      );
+
+  return [{ title: title, children: ["", ...files] }];
 }

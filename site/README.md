@@ -3,7 +3,7 @@ home: true
 heroImage: /pinguino-logo.png
 heroText: Pinguino Project
 actionText: Download =>
-actionLink: /#download
+actionLink: /download/
 features:
 - title: Easy
   details: Easily programmable with the Arduino-based syntax you already know.
@@ -39,16 +39,3 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
-
-## Download
-
-| Operating System  |   Version   |   Link   |
-| ----------------- |:-----------:| :-------:|
-| Windows           | v1.7.1.4    | [Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/Pinguino-installer-v1.7.1.4.exe) |
-| GNU/Linux         | v1.3.3      | [Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/pinguino-installer-v1.3.3.sh) |
-
-## News
-
-::: tip 2020-04-19 New language available!
-60% of all our visitors are from Latin America, so... Ya está disponible la versión en Español del sitio. [Ver ahora!](/es/)
-:::
