@@ -1,20 +1,23 @@
 # Project downloads
 
-In this page, you can download the stable and old-stable installer versions for the Pinguino Project.
+In this page, you can find instructions and programs to install the Pinguino Project on your computer.
 
-- **stable**: The current version for the installer, supported by the community.
-- **old-stable**: The previous version for the installer. Has no support.
+::: tip
+Please, read the *Release Notes* before install, in case you need to known something important about features or bugfixes shipped by the release, system requirements, or install instructions.
+:::
 
-Please, read the *Release Notes* before install, in case you need to known something important about features or bugfixes shipped by the release.
+## GNU/Linux installer
 
-## Windows installers
+We are working on a new version of GNU/Linux installer.
 
-| Branch  | Version | Python | IDE |  Links   |
-| ------- |:-------:|:------:|:---:|:--------:|
-| stable  | v1.7.1  | v2.7   | v12 |[Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/Pinguino-installer-v1.7.1.4.exe) / [Release Notes](https://github.com/PinguinoIDE/pinguino-installers/releases/tag/2020.03.14-STABLE)|
+::: warning
+Currently, we have a Release Candidate of the installer. Please, be aware that it's a BETA release, so it can contains bugs.
+:::
 
-## GNU/Linux installers
+|  Version  | IDE | Python |  Links   |
+:----------:|:---:|:------:|:--------:|
+| 20.11-rc1 | v13 |   v3   |[Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/v20.11-rc1/installer-v2.sh) / [Release Notes](https://github.com/PinguinoIDE/pinguino-installers/releases/tag/v20.11-rc1) |
 
-| Branch  | Version | Python | IDE |  Links   |
-| ------- |:-------:|:------:|:---:|:--------:|
-| stable  | v1.3.3  | v2.7   | v12 |[Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/pinguino-installer-v1.3.3.sh) / [Release Notes](https://github.com/PinguinoIDE/pinguino-installers/releases/tag/2020.03.14-STABLE) |
+## Windows installer
+
+Sory, we are working on a new version of Windows installer. Stay tunned!

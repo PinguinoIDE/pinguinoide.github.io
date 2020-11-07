@@ -17,7 +17,7 @@ features:
   details: Support a wide range of Microchip 8 and 32-bit microcontrollers.
 - title: Multi-Peripherals
   details: Native USB, Serial, I2C, SPI, PWM and more, out-of-the-box.
-footer: Copyright © Regis Blanchot | This site was made with Vuepress + Netlify + Cloudflare + Coffee + Love
+footer: Copyright © Regis Blanchot
 ---
 
 ## As Easy as 1, 2, 3
@@ -39,3 +39,9 @@ void loop() {
   delay(1000);                       // wait for a second
 }
 ```
+
+## Announcements
+
+::: tip 2020-11-07
+Check out our new GNU/Linux installer !
+:::

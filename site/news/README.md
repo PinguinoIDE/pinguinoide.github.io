@@ -4,6 +4,14 @@ title: Project News
 
 # Latest News
 
+## New GNU/Linux beta installer
+
+*Nov 07, 2020*
+
+We have a new GNU/Linux installer. Try it out !
+
+It's for the current stable version of Pinguino IDE v13, with Python3.
+
 ## Building new installer
 
 *June 13, 2020*
