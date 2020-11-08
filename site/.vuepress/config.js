@@ -24,10 +24,11 @@ module.exports = {
     lastUpdated: true,
     nav: [
       { text: 'News', link: '/news/' },
-      { text: 'Join Us', link: '/join-us/' },
+      { text: 'Get Start', link: '/getting-started/' },
     ],
     sidebar: {
       '/news/': getSideBar('news', 'News'),
+      '/getting-started/': getSideBar('getting-started', 'Documentation'),
     }
   },
   plugins: [

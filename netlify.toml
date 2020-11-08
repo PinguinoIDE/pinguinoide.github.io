@@ -9,3 +9,9 @@
 
   # Directory that contains the deploy-ready files.
   publish = "site/.vuepress/dist"
+
+[[redirects]]
+  from = "/download/"
+  to = "/getting-started/download.html"
+  force = "true"
+  status = 302
