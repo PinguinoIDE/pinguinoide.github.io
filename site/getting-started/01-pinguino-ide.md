@@ -9,7 +9,7 @@ It connects to the Pinguino board to upload programs and communicate with them.
 
 ## Menu
 
-Additional commands are found within the height menus: File, Edit, Project, Settings, Source,
+Additional commands are found within the eight menus: File, Edit, Project, Settings, Source,
 Debug, Tools, Help.
 
 ![Pinguino-ide-toolbar](./pinguino-ide-menu.png)
