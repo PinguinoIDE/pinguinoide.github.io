@@ -40,7 +40,7 @@ The text editor also have autocomplete capabilities, syntax highlighting and pro
 ## Log console
 
 The message log area gives feedback while compile and upload code to the board,
-and alsodisplays errors.
+and also displays errors.
 
 ![Pinguino-ide-toolbar](./pinguino-ide-log.png)
 
