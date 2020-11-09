@@ -3,7 +3,7 @@ home: true
 heroImage: /pinguino-logo.png
 heroText: Pinguino Project
 actionText: Download
-actionLink: /getting-started/download
+actionLink: /getting-started/00-download
 features:
 - title: Easy
   details: Easily programmable with the Arduino-based syntax you already know.

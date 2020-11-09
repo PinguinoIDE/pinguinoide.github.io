@@ -12,6 +12,6 @@
 
 [[redirects]]
   from = "/download/"
-  to = "/getting-started/download.html"
+  to = "/getting-started/00-download.html"
   force = true
   status = 302
