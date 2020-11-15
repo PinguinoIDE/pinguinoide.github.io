@@ -3,9 +3,13 @@
 ## What is Pinguino?
 
 There are so many great platforms for creating digitally enabled devices that its gotten
-hard to figure out which one to use. Arduino is maybe one of the most famous,
-but it is based on ATMEL Microcontrollers. The goal of **Pinguino Project** is to bring the
-simplicity of Arduino language to the PIC ©Microchip Microcontrollers with buil-in USB hardware.
+hard to figure out which one to use. Arduino is maybe one of the most famous, but it is based
+on ATMEL Microcontrollers and the boards are difficult to build or expensive in Latin America
+ or others countries.
+
+The goal of **Pinguino Project** is to bring the simplicity of Arduino language to the 
+PIC ©Microchip Microcontrollers but with buil-in USB hardware and a board that you can build 
+in your house.
 
 * Pinguino is an Open Source Integrated Development Environment (IDE).
 * Pinguino is an Open Hardware board, compatible both with 8-bit
@@ -21,13 +25,13 @@ simplicity of Arduino language to the PIC ©Microchip Microcontrollers with buil
 Pinguino IDE is cross-platform, it run on Linux, Windows and Mac OS X. With this IDE, 
 you can write, compile and upload code to your board.
 
-You need [download and install it](/download/) to start.
-Also, you can learn more about [Pinguino IDE v13](/getting-started/01-pinguino-ide).
+[Download and install it](/download/) to start.
+Read more about [Pinguino IDE v13](/getting-started/01-pinguino-ide) to learn.
 
 ## Pinguino boards
 
-Pinguino boards are an open hardware electronics prototyping platform, that can be purchased,
-or build at yourself (DIY).
+Pinguino boards are an open hardware electronics prototyping platform, that can be 
+[purchased](/getting-started/02-pinguino-boards), or build at yourself (DIY).
 
 Pinguino comes with a USB Bootloader too. This small program running inside the microcontroller
 is responsible for transferring your application from your PC to the microcontroller memory
