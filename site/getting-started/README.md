@@ -31,7 +31,7 @@ Read more about [Pinguino IDE v13](/getting-started/01-pinguino-ide) to learn.
 ## Pinguino boards
 
 Pinguino boards are an open hardware electronics prototyping platform, that can be 
-[purchased](/getting-started/02-pinguino-boards), or build at yourself (DIY).
+[purchased](/getting-started/02-pinguino-boards), or [build at yourself (DIY)](/boards).
 
 Pinguino comes with a USB Bootloader too. This small program running inside the microcontroller
 is responsible for transferring your application from your PC to the microcontroller memory

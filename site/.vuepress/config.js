@@ -29,6 +29,7 @@ module.exports = {
     sidebar: {
       '/news/': getSideBar('news', 'News'),
       '/getting-started/': getSideBar('getting-started', 'Documentation'),
+      '/boards/': getSideBar('boards', 'Board Reference'),
     }
   },
   plugins: [
