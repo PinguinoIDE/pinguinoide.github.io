@@ -5,18 +5,18 @@ heroText: Pinguino Project
 actionText: Download
 actionLink: /getting-started/00-download
 features:
-- title: Easy
-  details: Easily programmable with the Arduino-based syntax you already know.
+- title: Fácil
+  details: Facilmente programável com a sintaxe baseada em Arduino que você já conhece.
 - title: Open Source
-  details: Open Source Hardware platform. A PCB that you can build yourself.
+  details: Plataforma de Hardware Open Source. Uma placa que você pode fazer por conta própria.
 - title: Cross Platform
-  details: 32 and 64-bit GNU/Linux and Windows packages.
-- title: Powerful IDE
-  details: Powerful Integrated Development Environement (IDE)
-- title: Diverse
-  details: Support a wide range of Microchip 8 and 32-bit microcontrollers.
-- title: Multi-Peripherals
-  details: Native USB, Serial, I2C, SPI, PWM and more, out-of-the-box.
+  details: Pacotes GNU/Linux e Windows 32 e 64 bits.
+- title: IDE Potente
+  details: Ambiente de Desenvolvimento Integrado (IDE) potente
+- title: Diverso
+  details: Suporta grande leque de microcontroladores Microchip de 8 e 32-bits.
+- title: Multi-Periféricos
+  details: USB Nativo, Serial, I2C, SPI, PWM e mais, pronto para usar.
 footer: Copyright © Regis Blanchot
 ---
 
