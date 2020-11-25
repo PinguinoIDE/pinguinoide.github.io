@@ -1,7 +1,7 @@
-# Building a Pinguino board
+# Construindo uma placa Pinguino
 
 ::: tip
-This section is for build a board. If what you want is **to buy a board**, please go to the 
+Essa seçãoThis section is for build a board. If what you want is **to buy a board**, please go to the 
 [getting-started/02-boards page](/getting-started/02-pinguino-boards).
 :::
 
