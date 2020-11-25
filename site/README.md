@@ -52,6 +52,6 @@ Conecte a placa ao seu PC e faça upload do código. Divirta-se!
 
 ## Anúncios
 
-::: dica 2020-11-07
+::: tip 2020-11-07
 Confira nosso novo instalador GNU/Linux !
 :::
