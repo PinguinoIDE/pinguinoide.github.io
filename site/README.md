@@ -20,37 +20,37 @@ features:
 footer: Copyright © Regis Blanchot
 ---
 
-## As easy as 1, 2, 3
+## Tão fácil quanto 1, 2, 3
 
-### 1) Get de IDE
+### 1) Pegue a IDE
 
-Download and install the Pinguino IDE in your computer.
+Faça Download e instale a IDE Pinguino em seu computador.
 
-### 2) Write and compile
+### 2) Escreva e compile
 
 ```processing
-// the setup function runs once when you press reset or power the board
+// a função setup roda uma vez quando você pressiona o botão de reset na placa
 void setup() {
 
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
-// the loop function runs over and over again forever
+// a função loop roda continuamente várias vezes para sempre
 void loop() {
 
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, HIGH);   // liga o LED (HIGH é o nível de tensão)
+  delay(1000);                       // espera um segundo
+  digitalWrite(LED_BUILTIN, LOW);    // desliga o LED mudando a tensão para LOW
+  delay(1000);                       // espera um segundo
 }
 ```
 
-### 3) Upload
+### 3) Faça Upload
 
-Connect the board to your PC and upload the code. Enjoy!
+Conecte a placa ao seu PC e faça upload do código. Divirta-se!
 
-## Announcements
+## Anúncios
 
 ::: tip 2020-11-07
 Check out our new GNU/Linux installer !
