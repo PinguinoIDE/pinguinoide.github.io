@@ -22,7 +22,7 @@ footer: Copyright © Regis Blanchot
 
 ## Tão fácil quanto 1, 2, 3
 
-### 1) Pegue a IDE
+### 1) Pegue o IDE
 
 Faça Download e instale a IDE Pinguino em seu computador.
 
