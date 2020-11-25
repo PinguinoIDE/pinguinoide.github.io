@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /pinguino-logo.png
-heroText: Pinguino Project
+heroText: Projeto Pinguino
 actionText: Download
 actionLink: /getting-started/00-download
 features:
