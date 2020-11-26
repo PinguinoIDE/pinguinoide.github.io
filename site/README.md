@@ -2,7 +2,7 @@
 home: true
 heroImage: /pinguino-logo.png
 heroText: Projeto Pinguino
-actionText: Download
+actionText: Baixar
 actionLink: /getting-started/00-download
 features:
 - title: Fácil
