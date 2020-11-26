@@ -1,20 +1,20 @@
 # Construindo uma placa Pinguino
 
 ::: tip
-Essa seçãoThis section is for build a board. If what you want is **to buy a board**, please go to the 
+Essa seção é sobre a contrução de uma placa. Se você quiser **comprar uma placa**, por favor vá para 
 [getting-started/02-boards page](/getting-started/02-pinguino-boards).
 :::
 
-The diagram, physical shape and form factor of a board can vary and depends on how each person has 
-designed it, so there can be many and unlimited combinations.
+O diagrama, formato físico e tamanho de uma placa pode variar e depende de como cada pessoa a desenhou,
+assim podem haver muitas e ilimitadas combinações.
 
-What is limited is the number of microcontroller models that the Pinguino Project supports, 
-so these are the ones that we are going to document in this section.
+O que é limitado é o número de modelos de microcontrolador que o Projeto Pinguino suporta, 
+assim serão esses que nós iremos documentar nesta seção.
 
-## Selecting a microcontroller
+## Selecionando um microcontrolador
 
-The first step in building a Pinguino board is to make or obtain a Pinguino board diagram, based on the
-microcontroller model whose technical characteristics meet the requirements of a given job or project.
+O primeiro passo na construção de uma placa Pinguino é fazer ou obter um diagrama de placa Pinguino, baseado no
+modelo de microcontrolador cujas características atendam aos requerimentos de um dado trabalho ou projeto.
 
 In the sidebar you can find the list of microcontrollers supported by Pinguino. Each page contains 
 the technical specifications of the chip, its pinout, a basic reference diagram, a link to download its 
