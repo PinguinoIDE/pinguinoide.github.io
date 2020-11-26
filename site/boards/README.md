@@ -16,24 +16,23 @@ assim serão esses que nós iremos documentar nesta seção.
 O primeiro passo na construção de uma placa Pinguino é fazer ou obter um diagrama de placa Pinguino, baseado no
 modelo de microcontrolador cujas características atendam aos requerimentos de um dado trabalho ou projeto.
 
-In the sidebar you can find the list of microcontrollers supported by Pinguino. Each page contains 
-the technical specifications of the chip, its pinout, a basic reference diagram, a link to download its 
-datasheet and required firmware, and other useful information.
+Na barra laterar você pode encontrar a lista de microcontroladores suportados pelo Pinguino. Cada página contém
+as especificações técnicas do chip, sua pinagem, um diagrama de referência básico, um link para o download do  
+datasheet e o firmware necessário, e outras informações úteis.
 
-## Building the board
+## Fazendo a placa
 
-Once the chip is selected you can either use the diagram to design your own board, 
-or get a board design already made by someone else.
+Quando o chip for escolhido você pode tanto usar o diagrama para desenhar sua própria placa, 
+quanto pegar um desenho pronto já feito por alguém.
 
-## Burn the firmware
+## Grave o firmware
 
-The last part of the process is to load the firmware into the microcontroller, whose only function 
-is to allow Pinguino IDE to upload the code we write via USB.
+A última parte do processo é carregar o firmware no microcontrolador, cuja única função é permitir 
+que o IDE do Pinguino carregue o código que nós escrevemos via USB.
 
-This firmware is uploaded only once. Only when the microcontroller is new. To write this firmware the
-first time, you need specialized hardware called *PIC programmer*.
+Esse firmware é carregado uma única vez. Somente quando o microcontrolador é novo. Para gravar esse firmware na
+primeira vez, você precisará de um hardware especializado chamado *Gravador de PIC*.
 
 ::: tip
-If you bought a board built and ready to go, then it already has the firmware written to its 
-microcontroller.
+Se você comprou uma placa Pinguino pronta, o microcontrolador dela já tem o firmware gravado.
 :::
