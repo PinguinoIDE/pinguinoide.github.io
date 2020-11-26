@@ -1,33 +1,33 @@
 ---
-title: Project News
+title: Novidades do Projeto
 ---
 
-# Latest News
+# Últimas Notícias
 
-## New GNU/Linux beta installer
+## Novo instalador GNU/Linux beta
 
-*Nov 07, 2020*
+*07/11/2020*
 
-We have a new GNU/Linux installer. Try it out !
+Temos um novo instalador GNU/Linux. Teste agora !
 
-It's for the current stable version of Pinguino IDE v13, with Python3.
+Ele é para a versão atual estável do Pinguino IDE v13, com Python3.
 
-## Building new installer
+## Criando novo instalador
 
-*June 13, 2020*
+*13/06/2020*
 
-We are building a new Windows installer v1.8.X series for the Pinguino IDE v13.
+Estamos criando um novo instalador Windows da série v1.8.X para o Pinguino IDE v13.
 
-Some of the exciting features it will bring are:
+Alguns dos novos recursos que ele traz são:
 
 - Pinguino IDE v13
 - Python 3.7.7
-- Install folder now inside user documents
+- Pasta de instalação agora dentro dos documentos do usuário
 
-We hope to have it ready soon!
+Esperamos que esteja pronta em breve!
 
-## New ES-ar website language
+## Nova linguagem pt_BR do website
 
-*April 19, 2020*
+*25/11/2020*
 
-60% of all our visitors speak Spanish, so... Ya está disponible la versión en Español del sitio. [Ver ahora!](/es/)
+Já está disponível a versão em Protuguês do Brasil deste site. [Ver agora!](/pt_BR/)
