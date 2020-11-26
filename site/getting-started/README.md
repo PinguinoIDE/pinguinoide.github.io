@@ -17,40 +17,40 @@ na sua casa.
 * O Pinguino usa compiladores livres e de código aberto (SDCC e gcc-mips-elf,
   uma versão específica do gcc para microcontroladores PIC32) disponível para GNU/Linux,
   Windows e Mac OS X.
-* Pinguino is a firmware/bootloader that control the Pinguino Board.
-* Pinguino is almost 100% compatible with Arduino Language and Libraries.
+* O Pinguino é um firmware/bootloader que controla a placa Pinguino.
+* O Pinguino é quase 100% compatível com a Linguagem Arduino e Bibliotecas.
 
 ## Pinguino IDE
 
-Pinguino IDE is cross-platform, it run on Linux, Windows and Mac OS X. With this IDE, 
-you can write, compile and upload code to your board.
+O IDE do Pinguino é cross-platform, ele roda em Linux, Windows e Mac OS X. Com esse IDE, 
+você pode escrever, compilar e carregar código na sua placa.
 
-[Download and install it](/download/) to start.
-Read more about [Pinguino IDE v13](/getting-started/01-pinguino-ide) to learn.
+[Baixe e instale](/download/) para começar.
+Leia mais sobre [Pinguino IDE v13](/getting-started/01-pinguino-ide) para aprender.
 
-## Pinguino boards
+## Placas Pinguino
 
-Pinguino boards are an open hardware electronics prototyping platform, that can be 
-[purchased](/getting-started/02-pinguino-boards), or [build at yourself (DIY)](/boards).
+As placas Pinguino são uma platafroma de prototipagem eletrônica de hardware aberto, que podem ser 
+[compradas](/getting-started/02-pinguino-boards), ou [feitas por conta pŕopria (DIY)](/boards).
 
-Pinguino comes with a USB Bootloader too. This small program running inside the microcontroller
-is responsible for transferring your application from your PC to the microcontroller memory
-and handing over the control to this program afterwards.
+O Pinguino vem com um USB Bootloader também. Esse pequeno programa rodando dentro do microcontrolador
+é responsável por transferir sua aplicação do PC para a memória do microcontrolador
+e passar o controle para esse programa depois.
 
-## Getting help
+## Obtendo ajuda
 
-Currently we do not have a forum or a community page, where users can post their queries.
+No momento nós não temos um fórum ou uma página da comunidade, onde os usuários possam postar suas dúvidas.
 
-But if something doesn't work as it should, you can always create a ticket in the issues
-section of the project's Github page:
+Mas se alguma coisa não funcionar como deve, você sempre poderá criar um ticket na seção de problemas
+da página do projeto no Github, em inglês:
 
-* [Pinguino IDE issues](https://github.com/PinguinoIDE/pinguino-ide/issues)
-* [Pinguino Installer issues](https://github.com/PinguinoIDE/pinguino-installers/issues)
-* [Pinguino website issues](https://github.com/PinguinoIDE/pinguinoide.github.io/issues)
+* [Problemas no IDE do Pinguino](https://github.com/PinguinoIDE/pinguino-ide/issues)
+* [Problemas no Instalador do Pinguino](https://github.com/PinguinoIDE/pinguino-installers/issues)
+* [Problemas no website do Pinguino](https://github.com/PinguinoIDE/pinguinoide.github.io/issues)
 
-## Join us
+## Junte-se a nós
 
-We will always be happy to receive help. There are many areas in this project that
-you can be part of, you don't have to be a programmer or an electronics expert.
+Nós sempre ficaremos felizes em receber ajuda. Há muitas áreas nesse projeto que
+você pode participar, não precisa ser um programador ou expert em eletrônica.
 
-Check out the [join-us](/getting-started/join-us) page for more information.
+Veja a página [participe](/getting-started/join-us) para mais informações.
