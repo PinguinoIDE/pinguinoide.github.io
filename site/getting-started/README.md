@@ -1,22 +1,22 @@
-# Getting Started
+# Iniciando
 
-## What is Pinguino?
+## O que é o Pinguino?
 
-There are so many great platforms for creating digitally enabled devices that its gotten
-hard to figure out which one to use. Arduino is maybe one of the most famous, but it is based
-on ATMEL Microcontrollers and the boards are difficult to build or expensive in Latin America
- or others countries.
+Há muitas plataformas excelentes para a criação de de dispositivos habilitados digitalmente que 
+é difícil escolher qual usar. O Arduino é talvez uma das mais famosas, mas ela é baseada
+em Microcontroladores ATMEL e as placas são difíceis de fazer ou são caras na America Latina
+ou outros países.
 
-The goal of **Pinguino Project** is to bring the simplicity of Arduino language to the 
-PIC ©Microchip Microcontrollers but with buil-in USB hardware and a board that you can build 
-in your house.
+O objetico do **Projeto Pinguino** é trazer a simplicidade da linguagem usada no Arduino para os  
+Microcontroladores PIC ©Microchip, mas com hardware USB embutido e uma placa que você possa fazer 
+na sua casa.
 
-* Pinguino is an Open Source Integrated Development Environment (IDE).
-* Pinguino is an Open Hardware board, compatible both with 8-bit
-  (PIC18F with built-in USB module only) and 32-bit (PIC32MX) ©Microchip Microcontrollers.
-* Pinguino uses free and open source compilers (SDCC and gcc-mips-elf,
-  a targeted version of gcc for PIC32 microcontrollers) available for GNU/Linux,
-  Windows and Mac OS X.
+* O Pinguino é um Ambiente Integrado de Desenvolvimento (IDE) Open Source.
+* O Pinguino é uma placa Open Hardware, compatível com Microcontroladores ©Microchip de 8 bits
+  (somente PIC18F com módulo USB embutido) e 32-bit (PIC32MX).
+* O Pinguino usa compiladores livres e de código aberto (SDCC e gcc-mips-elf,
+  uma versão específica do gcc para microcontroladores PIC32) disponível para GNU/Linux,
+  Windows e Mac OS X.
 * Pinguino is a firmware/bootloader that control the Pinguino Board.
 * Pinguino is almost 100% compatible with Arduino Language and Libraries.
 
