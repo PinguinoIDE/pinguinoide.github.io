@@ -1,7 +1,7 @@
 # Construindo uma placa Pinguino
 
 ::: tip
-Essa seção é sobre a contrução de uma placa. Se você quiser **comprar uma placa**, por favor vá para 
+Essa seção é sobre a construção de uma placa. Se você quiser **comprar uma placa**, por favor vá para 
 [getting-started/02-boards page](/getting-started/02-pinguino-boards).
 :::
 
