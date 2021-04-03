@@ -52,6 +52,11 @@ Connect the board to your PC and upload the code. Enjoy!
 
 ## Announcements
 
+::: tip 2021-04-02
+* We have a new [Community page](https://github.com/PinguinoIDE/pinguinoide.github.io/discussions) !
+* Added a Youtube video in the [GNU/Linux Download section](/getting-started/00-download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
+:::
+
 ::: tip 2020-11-07
 Check out our new GNU/Linux installer !
 :::
