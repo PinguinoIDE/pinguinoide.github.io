@@ -20,6 +20,8 @@ Currently, we have a Release Candidate of the installer. Please, be aware that i
 :----------:|:---:|:------:|:--------:|
 | 20.11-rc1 | v13 |   v3   |[Download](https://github.com/PinguinoIDE/pinguino-installers/releases/download/v20.11-rc1/installer-v2.sh) / [Release Notes](https://github.com/PinguinoIDE/pinguino-installers/releases/tag/v20.11-rc1) |
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T2PtVOzfbKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## for Windows
 
 Sory, we are working on a new version of Windows installer. Stay tunned!
