@@ -28,8 +28,6 @@ module.exports = {
     editLinks: true,
     lastUpdated: true,
     nav: [
-      { text: 'News', link: '/news/' },
-      { text: 'Get Start', link: '/getting-started/' },
       { text: 'Community', link: 'https://github.com/PinguinoIDE/pinguinoide.github.io/discussions' },
     ],
     sidebar: {
