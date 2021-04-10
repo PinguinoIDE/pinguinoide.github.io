@@ -14,6 +14,11 @@ module.exports = {
       lang: 'es-AR',
       title: 'Proyecto Pinguino',
       description: 'Computación física para todos',
+    },
+    '/pt/': {
+      lang: 'pt-BR',
+      title: 'Projeto Pinguino',
+      description: 'Computação física para todos',
     }
   },
   themeConfig: {
