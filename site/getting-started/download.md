@@ -1,3 +1,7 @@
+---
+permalink: /download
+---
+
 # Project downloads
 
 In this page, you can find instructions and programs to install the Pinguino Project on your computer.
