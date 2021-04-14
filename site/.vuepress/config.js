@@ -49,6 +49,8 @@ module.exports = {
         collapsable: false,
         children: [
           '/pinguino-boards/',
+          '/pinguino-boards/supported-boards-8',
+          '/pinguino-boards/supported-boards-32',
           '/pinguino-boards/buy',
           '/pinguino-boards/DIY'
         ]

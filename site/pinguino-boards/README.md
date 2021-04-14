@@ -1,4 +1,4 @@
-# Pinguino boards
+# Boards user manual
 
 The pinguino boards are on the core of the project and it's community.
 
