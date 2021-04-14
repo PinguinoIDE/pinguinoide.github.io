@@ -3,7 +3,7 @@ home: true
 heroImage: /pinguino-logo.png
 heroText: Pinguino Project
 actionText: Download
-actionLink: /getting-started/00-download
+actionLink: /download/
 features:
 - title: Easy
   details: Easily programmable with the Arduino-based syntax you already know.
@@ -22,11 +22,12 @@ footer: Copyright © Regis Blanchot
 
 ## As easy as 1, 2, 3
 
-### 1) Get de IDE
+### 1. Get de IDE
 
-Download and install the Pinguino IDE in your computer.
+[Download and install](/getting-started/download) the Pinguino IDE in your computer. Don't known 
+how to use it? Check the [Pinguino IDE v13 user manual](/pinguino-ide-v13).
 
-### 2) Write and compile
+### 2. Write and compile
 
 ```processing
 // the setup function runs once when you press reset or power the board
@@ -46,7 +47,9 @@ void loop() {
 }
 ```
 
-### 3) Upload
+Pinguino boards are programmed using the Processing language.
+
+### 3. Upload
 
 Connect the board to your PC and upload the code. Enjoy!
 
@@ -54,7 +57,7 @@ Connect the board to your PC and upload the code. Enjoy!
 
 ::: tip 2021-04-02
 * We have a new [Community page](https://github.com/PinguinoIDE/pinguinoide.github.io/discussions) !
-* Added a Youtube video in the [GNU/Linux Download section](/getting-started/00-download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
+* Added a Youtube video in the [GNU/Linux Download section](/getting-started/download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
 :::
 
 ::: tip 2020-11-07

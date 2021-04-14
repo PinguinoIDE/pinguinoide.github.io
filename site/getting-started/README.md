@@ -1,6 +1,4 @@
-# Getting Started
-
-## What is Pinguino?
+# What is Pinguino?
 
 There are so many great platforms for creating digitally enabled devices that its gotten
 hard to figure out which one to use. Arduino is maybe one of the most famous, but it is based
@@ -26,12 +24,12 @@ Pinguino IDE is cross-platform, it run on Linux, Windows and Mac OS X. With this
 you can write, compile and upload code to your board.
 
 [Download and install it](/download/) to start.
-Read more about [Pinguino IDE v13](/getting-started/01-pinguino-ide) to learn.
+Read more about [Pinguino IDE v13](/pinguino-ide-v13/) to learn.
 
 ## Pinguino boards
 
-Pinguino boards are an open hardware electronics prototyping platform, that can be 
-[purchased](/getting-started/02-pinguino-boards), or [build at yourself (DIY)](/boards).
+[Pinguino boards](/pinguino-boards/) are an open hardware electronics prototyping platform, that can be 
+[purchased](/pinguino-boards/buy), or [build at yourself (DIY)](/pinguino-boards/DIY).
 
 Pinguino comes with a USB Bootloader too. This small program running inside the microcontroller
 is responsible for transferring your application from your PC to the microcontroller memory
@@ -39,9 +37,9 @@ and handing over the control to this program afterwards.
 
 ## Getting help
 
-Currently we do not have a forum or a community page, where users can post their queries.
+The first stop is our newly [Community page](https://github.com/PinguinoIDE/pinguinoide.github.io/discussions), where users can post their queries.
 
-But if something doesn't work as it should, you can always create a ticket in the issues
+And if something doesn't work as it should, you can always create a ticket in the issues
 section of the project's Github page:
 
 * [Pinguino IDE issues](https://github.com/PinguinoIDE/pinguino-ide/issues)

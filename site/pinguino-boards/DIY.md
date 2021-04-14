@@ -1,8 +1,8 @@
-# Building a Pinguino board
+# Do-It-Yourself
 
 ::: tip
 This section is for build a board. If what you want is **to buy a board**, please go to the 
-[getting-started/02-boards page](/getting-started/02-pinguino-boards).
+[/pinguino-boards/buy](/pinguino-boards/buy) page.
 :::
 
 The diagram, physical shape and form factor of a board can vary and depends on how each person has 

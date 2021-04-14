@@ -1,4 +1,4 @@
-# Pinguino IDE v13
+# User manual
 
 The Pinguino Integrated Development Environment *or Pinguino IDE* main window contains
 a text editor for writing code, a Python shell console, a log console, a stdout windows,

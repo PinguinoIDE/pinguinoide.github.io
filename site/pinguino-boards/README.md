@@ -21,8 +21,3 @@ to put it in programming mode so that Pinguino IDE can upload the code to the mi
 The board can obtain information from its environment using sensors and control it by means 
 of actuators. Both the sensors and the actuators are connected to the board using the input / output 
 pins/connector that it has.
-
-## Where can i get them ?
-
-In this section we will soon list the contacts of other members of the community that sell 
-ready-to-use Pinguino boards, sorted by geographic location.
