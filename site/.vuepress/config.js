@@ -1,6 +1,3 @@
-const fs = require("fs");
-const path = require("path");
-
 module.exports = {
   title: 'Pinguino project',
   description: 'Physical computing for everyone',
@@ -30,11 +27,33 @@ module.exports = {
     nav: [
       { text: 'Community', link: 'https://github.com/PinguinoIDE/pinguinoide.github.io/discussions' },
     ],
-    sidebar: {
-      '/news/': getSideBar('news', 'News'),
-      '/getting-started/': getSideBar('getting-started', 'Documentation'),
-      '/boards/': getSideBar('boards', 'Board Reference'),
-    }
+    sidebar: [
+      {
+        title: 'Getting Started',
+        collapsable: false,
+        children: [
+          '/getting-started/',
+          '/getting-started/download',
+          '/getting-started/join-us'
+        ]
+      },
+      {
+        title: 'Pinguino IDE v13',
+        collapsable: false,
+        children: [
+          '/pinguino-ide-v13/'
+        ]
+      },
+      {
+        title: 'Pinguino Boards',
+        collapsable: false,
+        children: [
+          '/pinguino-boards/',
+          '/pinguino-boards/buy',
+          '/pinguino-boards/DIY'
+        ]
+      },
+    ]
   },
   plugins: [
     [
@@ -45,19 +64,3 @@ module.exports = {
     ]
   ]
 };
-
-// Thanks to https://techformist.com/automatic-dynamic-sidebar-vuepress/
-function getSideBar(folder, title) {
-  const extension = [".md"];
-
-  const files = fs
-    .readdirSync(path.join(`${__dirname}/../${folder}`))
-    .filter(
-      item =>
-        item.toLowerCase() != "readme.md" &&
-        fs.statSync(path.join(`${__dirname}/../${folder}`, item)).isFile() &&
-        extension.includes(path.extname(item))
-      );
-
-  return [{ title: title, children: ["", ...files] }];
-}

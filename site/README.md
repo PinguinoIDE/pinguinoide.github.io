@@ -25,7 +25,7 @@ footer: Copyright © Regis Blanchot
 ### 1. Get de IDE
 
 [Download and install](/getting-started/download) the Pinguino IDE in your computer. Don't known 
-how to use it? [Check the user manual](/getting-started/01-pinguino-ide).
+how to use it? Check the [Pinguino IDE v13 user manual](/pinguino-ide-v13).
 
 ### 2. Write and compile
 
@@ -57,7 +57,7 @@ Connect the board to your PC and upload the code. Enjoy!
 
 ::: tip 2021-04-02
 * We have a new [Community page](https://github.com/PinguinoIDE/pinguinoide.github.io/discussions) !
-* Added a Youtube video in the [GNU/Linux Download section](/getting-started/00-download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
+* Added a Youtube video in the [GNU/Linux Download section](/getting-started/download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
 :::
 
 ::: tip 2020-11-07
