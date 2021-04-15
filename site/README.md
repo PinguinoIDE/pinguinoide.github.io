@@ -53,13 +53,15 @@ Pinguino boards are programmed using the Processing language.
 
 Connect the board to your PC and upload the code. Enjoy!
 
-## Announcements
+## :loudspeaker: Announcements
+
+::: tip 2021-04-14
+* A new [v2.0-beta.2](/download/) Pinguino installer for GNU/Linux has been released ! Thanks to [@iz3gme](https://github.com/iz3gme) for the contribution.
+* New [pt-BR](/pt/) language translation for this website. Thanks to [@luzemario](https://github.com/luzemario) for their contribution.
+* Added a new [/pinguino-boards/buy](/pinguino-boards/buy) page. If you want to see your Pinguino Board in this page for sell, contact us.
+:::
 
 ::: tip 2021-04-02
 * We have a new [Community page](https://github.com/PinguinoIDE/pinguinoide.github.io/discussions) !
 * Added a Youtube video in the [GNU/Linux Download section](/getting-started/download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
-:::
-
-::: tip 2020-11-07
-Check out our new GNU/Linux installer !
 :::
