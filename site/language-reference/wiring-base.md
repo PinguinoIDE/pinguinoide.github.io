@@ -16,8 +16,8 @@ digitalWrite(pin,value)
 
 | Param		| Type		| Desc				|
 |---------------|:-------------:|-------------------------------|
-| `pin`		| Integer	| The pin number to write.	|
-| `value`	| Static	| Can be `HIGH` or `LOW`.	|
+| `pin`		| *integer*	| The pin number to write.	|
+| `value`	| *constant*	| Can be `HIGH` or `LOW`.	|
 
 ### Returns
 
