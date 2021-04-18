@@ -55,6 +55,13 @@ module.exports = {
           '/pinguino-boards/DIY'
         ]
       },
+      {
+        title: 'Language Reference',
+        collapsable: false,
+        children: [
+          '/language-reference/'
+        ]
+      },
     ]
   },
   plugins: [
