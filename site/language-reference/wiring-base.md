@@ -1,6 +1,21 @@
 # Wiring Base
 
-[[toc]]
+## Table of Contents
+* abs
+* analogRead
+* analogWrite
+* cos
+* delay
+* delayMicroseconds
+* digitalRead
+* digitalWrite
+* millis
+* pinMode
+* pow
+* randomSeed
+* sin
+* sqrt
+* tan
 
 ## digitalWrite()
 
