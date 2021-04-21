@@ -24,7 +24,7 @@ The `digitalWrite()` method sets the value of a digital output pin. Possible val
 ### Syntax
 
 ```processing
-digitalWrite(pin,value)
+digitalWrite(pin,value)  (P8 and P32)
 ```
 
 ### Parameters
@@ -51,6 +51,11 @@ void loop() {
   digitalWrite(outpin, HIGH);
 }
 ```
+### Notes
+
+The parameter `pin` refers to the IDE defined 'pin', which typically differs from the device physical pin.
+See https://github.com/PinguinoIDE/pinguinoide.github.io/tree/master/site/pinguino-boards for details of pin mapping.
+The parameter `LOW` sets the pin nominally to 0 volts (P8 and P32). The parameter `HIGH` sets the pin nominally to 5 volts (P8) or 3.3 volts (P32).
 
 ### Relates
 
