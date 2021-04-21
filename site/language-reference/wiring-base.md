@@ -19,7 +19,7 @@
 
 ## digitalWrite()
 
-The `digitalWrite()` method sets the value of a digital output pin. Possible values are `HIGH` or `LOW`.
+The `digitalWrite()` function sets the value of a digital output pin. Possible values are `HIGH` or `LOW`.
 
 ### Syntax
 
