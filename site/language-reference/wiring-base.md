@@ -59,17 +59,17 @@ The `analogRead()` function reads the value on an analog pin to 10 bits resoluti
 analogRead(pin)  (P8 and P32)
 ```
 
-## Parameters
+### Parameters
 
 | Param		| Type		| Desc				|
 |---------------|:-------------:|-------------------------------|
 | `pin`		| *integer*	| The pin number to read.	|
 
-## Returns
+### Returns
 
-Returns a value proportional to the voltage applied on the selected pin - 0..5v (P8), 0..3.3v (P32).
+Returns a value proportional to the voltage applied on the selected pin:  0..5v (P8), 0..3.3v (P32).
 
-## Example
+### Example
 
 ```processing
 // level detector (P8)
@@ -97,6 +97,50 @@ IDE defined 'pins' that can read an analog value depend on the device. Typically
 ### Relates
 
 * analogWrite()
+
+## analogWrite()
+
+The `analogWrite()` function sets an analog signal on a pin via pulse width modulation (PWM).
+
+### Syntax
+
+```processing
+analogWrite(pin,value)  (P8 and P32)
+```
+
+### Parameters
+
+| Param		| Type		| Desc				|
+|---------------|:-------------:|-------------------------------|
+| `pin`		| *integer*	| The pin number to write.	|
+| `value`	| *integer*	| Value between 0 and 1023 |
+
+### Returns
+
+None
+
+### Example
+
+```processing
+void setup()
+{
+}
+ 
+void loop()
+{
+        analogWrite(11,512);    // 50% PWM on pin 11
+        analogWrite(12,102);    // 10% PWM on pin 12
+}
+```
+
+### Notes
+
+The voltage that appears on a pin using this function is pulse width modulated i.e. a square wave. An integrator must be utilised if a DC signal is required. Following integration, if `value` is e.g. 1023 then the nominal DC voltage will be 5v (P8) or 3.3v (P32).
+
+### Relates
+
+* analogRead()
+
 
 ## digitalWrite()
 
