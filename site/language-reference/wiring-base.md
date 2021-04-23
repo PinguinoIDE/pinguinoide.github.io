@@ -25,7 +25,7 @@ The `abs()` function returns the absolute value of a floating point number.
 ### Syntax
 
 ```processing
-abs(x);  (P8 and P32)
+abs(x);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -58,7 +58,7 @@ The `analogRead()` function reads the value on an analog pin to 10 bits resoluti
 ### Syntax
 
 ```processing
-analogRead(pin);  (P8 and P32)
+analogRead(pin);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -108,7 +108,7 @@ The `analogWrite()` function sets an analog signal on a pin via pulse width modu
 ### Syntax
 
 ```processing
-analogWrite(pin,value);  (P8 and P32)
+analogWrite(pin,value);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -152,8 +152,9 @@ The `cos()` function returns the cosine of parameter x, where x is given in radi
 ### Syntax
 
 ```processing
-cos(x);  (P8 and P32)
+cos(x);  //(P8 and P32)
 ```
+
 ### Parameters
 
 | Param		| Type		| Desc				|
@@ -184,7 +185,7 @@ The `delay()` function instructs the processor to wait for a specified period of
 ### Syntax
 
 ```processing
-delay(x);  (P8 and P32)
+delay(x);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -213,7 +214,7 @@ The `delayMicroseconds()` function instructs the processor to wait for a specifi
 ### Syntax
 
 ```processing
-delayMicroseconds(x)  (P8 and P32)
+delayMicroseconds(x);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -242,7 +243,7 @@ The `digitalRead()` function reads the value of a digital input pin. Possible va
 ### Syntax
 
 ```processing
-digitalRead(pin);  (P8 and P32)
+digitalRead(pin);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -297,7 +298,7 @@ The `digitalWrite()` function sets the value of a digital output pin. Possible v
 ### Syntax
 
 ```processing
-digitalWrite(pin,value);  (P8 and P32)
+digitalWrite(pin,value);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -346,7 +347,9 @@ The `millis()` function returns the time elapsed since the beginning of the prog
 
 ### Syntax
 
-millis();
+```processing
+millis();  //(P8 and P32)
+```
 
 ### Parameters
 
@@ -388,7 +391,7 @@ The `pinMode()` function configures a given pin as input or output.
 ### Syntax
 
 ```processing
-pinMode(pin,mode); (P8 and P32)
+pinMode(pin,mode); //(P8 and P32)
 ```
 
 ### Parameters
@@ -441,7 +444,7 @@ The `pow()` function returns the value of x raised to the power y.
 ### Syntax
 
 ```processing
-pow(x,y);  (P8 and P32)
+pow(x,y);  //(P8 and P32)
 ```
 
 ### Parameters
@@ -475,7 +478,7 @@ The `randomSeed()` function sets its argument as the seed for the sequence of ps
 ### Syntax
 
 ```processing
-randomSeed(seed);
+randomSeed(seed); //(P8 and P32)
 rand();
 ```
 
@@ -534,8 +537,9 @@ The `sin()` function returns the sine of parameter x, where x is given in radian
 ### Syntax
 
 ```processing
-sin(x);  (P8 and P32)
+sin(x);  //(P8 and P32)
 ```
+
 ### Parameters
 
 | Param		| Type		| Desc				|
@@ -566,8 +570,9 @@ The `sqrt()` function returns the (non-negative) square root of parameter x.
 ### Syntax
 
 ```processing
-sqrt(x);  (P8 and P32)
+sqrt(x);  //(P8 and P32)
 ```
+
 ### Parameters
 
 | Param		| Type		| Desc				|
@@ -598,8 +603,9 @@ The `tan()` function returns the tangent of parameter x, where x is given in rad
 ### Syntax
 
 ```processing
-tan(x);  (P8 and P32)
+tan(x);  //(P8 and P32)
 ```
+
 ### Parameters
 
 | Param		| Type		| Desc				|
