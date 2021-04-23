@@ -35,7 +35,7 @@ program memory make it ideal for embedded control and monitoring applications th
 connection with a (legacy free) Personal Computer via USB for data upload/download and/or
 firmware updates.
 
-| Parameter name		| Param Vvalue	|
+| Parameter name		| Param value	|
 |:------------------------------|:--------------|
 | CPU Speed (MIPS)		| 12		|
 | Program Memory Size		| 32768 Bytes	|
@@ -72,7 +72,7 @@ program memory make it ideal for embedded control and monitoring applications th
 connection with a (legacy free) personal computer via USB for data upload/download and/or
 firmware updates.
 
-| Parameter name		| Param Vvalue	|
+| Parameter name		| Param value	|
 |:------------------------------|:--------------|
 | CPU Speed (MIPS)		| 12		|
 | Program Memory Size		| 32768 Bytes	|
