@@ -55,6 +55,11 @@ Connect the board to your PC and upload the code. Enjoy!
 
 ## :loudspeaker: Announcements
 
+::: tip 2021-04-23
+* Added a new [Wiring Base](/language-reference/wiring-base) Language Reference page. Thanks to [@swhomans](https://github.com/swhomans) for the contribution.
+* Updated the [8-bit Pinguino Boards](/pinguino-boards/supported-boards-8) page.
+:::
+
 ::: tip 2021-04-14
 * A new [v2.0-beta.2](/download/) Pinguino installer for GNU/Linux has been released ! Thanks to [@iz3gme](https://github.com/iz3gme) for the contribution.
 * New [pt-BR](/pt/) language translation for this website. Thanks to [@luzemario](https://github.com/luzemario) for their contribution.
