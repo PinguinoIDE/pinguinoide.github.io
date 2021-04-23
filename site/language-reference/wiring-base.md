@@ -436,6 +436,9 @@ void loop()
 
 ### Relates
 
+* digitalRead()
+* digitalWrite()
+
 
 ## pow()
 
