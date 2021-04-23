@@ -59,7 +59,8 @@ module.exports = {
         title: 'Language Reference',
         collapsable: false,
         children: [
-          '/language-reference/'
+          '/language-reference/',
+          '/language-reference/wiring-base'
         ]
       },
     ]
