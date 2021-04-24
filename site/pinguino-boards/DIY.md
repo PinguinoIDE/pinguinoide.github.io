@@ -1,39 +1,97 @@
 # Do-It-Yourself
 
 ::: tip
-This section is for build a board. If what you want is **to buy a board**, please go to the 
+This section is for build a board your self. If what you want is **to buy a board**, please go to the 
 [/pinguino-boards/buy](/pinguino-boards/buy) page.
 :::
 
-The diagram, physical shape and form factor of a board can vary and depends on how each person has 
-designed it, so there can be many and unlimited combinations.
+[[toc]]
 
-What is limited is the number of microcontroller models that the Pinguino Project supports, 
-so these are the ones that we are going to document in this section.
+Pinguino Project is [Open Hardware](https://en.wikipedia.org/wiki/Open-source_hardware). This means
+that the user has access to all the necessary technical information that allows him to
+design and / or build his own Pinguino board.
 
-## Selecting a microcontroller
+Even more: The design of Pinguino is so simple that the boards can be built in breadboard,
+perforated plates, or single-faced Pertinax, at home. And if you have the resources, you can send
+the Gerber files to suppliers like [PCBWay](https://www.pcbway.com/) or [JLCPCB](https://jlcpcb.com/)
+for a professional finish, at U$D 2-5 for 5 pieces.
 
-The first step in building a Pinguino board is to make or obtain a Pinguino board diagram, based on the
-microcontroller model whose technical characteristics meet the requirements of a given job or project.
+## How to build a board ?
 
-In the sidebar you can find the list of microcontrollers supported by Pinguino. Each page contains 
-the technical specifications of the chip, its pinout, a basic reference diagram, a link to download its 
-datasheet and required firmware, and other useful information.
+Follow these simple steps:
 
-## Building the board
+1. **Board design**
+  * Design the board yourself. You can find basic diagrams on the [8-bit supported boards](/pinguino-boards/supported-boards-8) page.
+  * Or choice one of the following diagrams bellow.
 
-Once the chip is selected you can either use the diagram to design your own board, 
-or get a board design already made by someone else.
+2. **Board manufacturing**
+  * Make the board yourself.
+  * Or send the Gerber files to a manufacturer.
 
-## Burn the firmware
+3. **Board firmware**
+  * Burn the Pinguino firmware on the chip.
+  * Or buy a microcontroller with the firmware already inside.
 
-The last part of the process is to load the firmware into the microcontroller, whose only function 
-is to allow Pinguino IDE to upload the code we write via USB.
+4. Enjoy
 
-This firmware is uploaded only once. Only when the microcontroller is new. To write this firmware the
-first time, you need specialized hardware called *PIC programmer*.
+## Board designs
 
-::: tip
-If you bought a board built and ready to go, then it already has the firmware written to its 
-microcontroller.
-:::
+Some Pinguino Board designs by the Community...
+
+### Pinguino Uno
+
+![Pinguino Uno](./PCBDesigner-PinguinoUno.png "Pinguino Uno by PCBDesigner")
+
+| Based on:	| PIC18F2550	|
+|:--------------|:--------------|
+| Author:	| PCBDesigner	|
+| Web:		| [PCBWay](https://www.pcbway.com/project/shareproject/Pinguino_UNO___Pic18F2550.html)|
+| YouTube:	| [YouTube](https://www.youtube.com/watch?v=EoYsf2O1QBQ)|
+
+### Pinguino Uno 2550
+
+![Pinguino Uno 2550](./PCBDesigner-PinguinoUno2550.jpg "Pinguino Uno 2550 by PCBDesigner")
+
+| Based on:	| PIC18F2550	|
+|:--------------|:--------------|
+| Author:	| PCBDesigner	|
+| Web:		| [PCBWay](https://www.pcbway.com/project/shareproject/PINGUINO_UNO_PIC18F2550.html)|
+| YouTube:	| [YouTube](https://www.youtube.com/watch?v=3PlAXMARl_o)|
+
+### Pinguino 4550
+
+![Pinguino 4550](./PCBDesigner-Pinguino4550.png "Pinguino 4550 by PCBDesigner")
+
+| Based on:	| PIC18F4550	|
+|:--------------|:--------------|
+| Author:	| PCBDesigner	|
+| Web:		| [PCBWay](https://www.pcbway.com/project/shareproject/Pinguino_PIC18F4550.html)|
+| YouTube:	| [YouTube](https://www.youtube.com/watch?v=EuCuwwoP3R0)|
+
+### Editronikx 4550
+
+![Editronikx 4550](./Editronikx-4550.png "Pinguino 4550 by Editronikx")
+
+| Based on:	| PIC18F4550	|
+|:--------------|:--------------|
+| Author:	| [Editronikx](https://www.editronikx.com.co/2019/01/tarjeta-pinguino-entrenate-programando.html)	|
+| Web:		| [PCBWay](https://www.pcbway.com/project/shareproject/pinguino_4550_editronikx_2018_12_15.html)|
+| YouTube:	| [YouTube](https://www.youtube.com/watch?v=sWOqW9E5mBA)|
+
+### Do-It-Yourself 4550
+
+![DIY 4550](./DIY-4550.jpg "DIY 4550")
+
+| Based on:	| PIC18F4550	|
+|:--------------|:--------------|
+| Author:	| MicroControllerElectronics Blog	|
+| Web:		| [Blog](https://microcontrollerelectronics.com/do-it-yourself-pinguino-pic18f4550-board/)|
+
+### Xolcano Pinguino
+
+![Xolcano Pinguino](./Xolcano-Pinguino.png "Pinguino by Xolcano")
+
+| Based on:	| PIC18F2550	|
+|:--------------|:--------------|
+| Author:	| [Xolcano](https://xolcano.com/)	|
+| Web:		| [Instructables](https://www.instructables.com/Pinguino-Project-a-PIC-Microcontroller-Based-Ardui/)|
