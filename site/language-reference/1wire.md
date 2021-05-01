@@ -10,7 +10,7 @@
 
 ## 1wire.readbit()
 
-The `1wire.readbit()` function reads a bit from the one-wire bus and return it.
+The `1wire.readbit()` function reads a bit from the one-wire bus and returns it.
 
 
 ### Syntax
@@ -23,7 +23,7 @@ u8 1wire.readbit(u8 pin); // P8 and P32
 
 | Param		| Type		| Desc				|
 |---------------|:-------------:|-------------------------------|
-| `pin`		| *8 bit integer*	| pin to which the on-wire bus is connected.	|
+| `pin`		| *8 bit integer*	| pin to which the one-wire bus is connected.	|
 
 ### Returns
 
@@ -57,7 +57,7 @@ u8 OneWireRead(u8 pin)
 
 ## 1wire.readbyte()
 
-The `1wire.readbyte()` function reads a byte from the one-wire bus and return it. 
+The `1wire.readbyte()` function reads a byte from the one-wire bus and returns it. 
 
 ### Syntax
 
@@ -69,7 +69,7 @@ u8 1wire.readbyte(u8 pin);  //(P8 and P32)
 
 | Param		| Type		| Desc				|
 |---------------|:-------------:|-------------------------------|
-| `pin`		| *8 bitinteger*	| pin to which the one-wire bus is connected.	|
+| `pin`		| *8 bit integer*	| pin to which the one-wire bus is connected.	|
 
 
 ### Returns
@@ -109,7 +109,7 @@ u8 1wire.reset(u8 pin);  //(P8 and P32)
 
 | Param		| Type		| Desc				|
 |---------------|:-------------:|-------------------------------|
-| `pin`		| *8 bit integer*	| pin to which the on-wire bus is connected.	|
+| `pin`		| *8 bit integer*	| pin to which the one-wire bus is connected.	|
 
 ### Returns
 
@@ -166,7 +166,7 @@ void OneWireWrite(u8 pin, u8 val) // P8 and P32
     {
         temp = val >> i;		// shifts val right 'i' spaces
         temp &= 0x01;			// copy that bit to temp
-        1wire.writebit(pin, temp);	// write bit ont one-wire bus
+        1wire.writebit(pin, temp);	// write bit on the one-wire bus
     }
 }
 ```
