@@ -1,22 +1,13 @@
-# Wiring Base
+# 1wire
 
 ## Table of Contents
 
 * abs
-* analogRead
-* analogWrite
-* cos
-* delay
-* delayMicroseconds
-* digitalRead
-* digitalWrite
-* millis
-* pinMode
-* pow
-* randomSeed
-* sin
-* sqrt
-* tan
+* 1wire.readbit
+* 1wire.readbyte
+* 1wire.reset
+* 1wire.writebit
+* 1wire.writebyte
 
 ## abs()
 
