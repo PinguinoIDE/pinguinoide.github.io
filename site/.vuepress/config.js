@@ -60,7 +60,8 @@ module.exports = {
         collapsable: false,
         children: [
           '/language-reference/',
-          '/language-reference/wiring-base'
+          '/language-reference/wiring-base',
+          '/language-reference/1wire'
         ]
       },
     ]

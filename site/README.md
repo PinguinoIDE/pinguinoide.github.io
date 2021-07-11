@@ -47,7 +47,7 @@ void loop() {
 }
 ```
 
-Pinguino boards are programmed using the Processing language.
+Pinguino boards are programmed using the [Processing language](/language-reference).
 
 ### 3. Upload
 
@@ -55,18 +55,16 @@ Connect the board to your PC and upload the code. Enjoy!
 
 ## :loudspeaker: Announcements
 
-::: tip 2021-04-23
-* Added a new [Wiring Base](/language-reference/wiring-base) Language Reference page. Thanks to [@swhomans](https://github.com/swhomans) for the contribution.
-* Updated the [8-bit Pinguino Boards](/pinguino-boards/supported-boards-8) page.
+::: tip 2021-07
+* Added a new [1-Wire](/language-reference/1wire) Language Reference page. Thanks to [@swhomans](https://github.com/swhomans) for the contribution.
 :::
 
-::: tip 2021-04-14
+::: tip 2021-04
+* Added a new [Wiring Base](/language-reference/wiring-base) Language Reference page. Thanks to [@swhomans](https://github.com/swhomans) for the contribution.
+* Updated the [8-bit Pinguino Boards](/pinguino-boards/supported-boards-8) page.
 * A new [v2.0-beta.2](/download/) Pinguino installer for GNU/Linux has been released ! Thanks to [@iz3gme](https://github.com/iz3gme) for the contribution.
 * New [pt-BR](/pt/) language translation for this website. Thanks to [@luzemario](https://github.com/luzemario) for their contribution.
 * Added a new [/pinguino-boards/buy](/pinguino-boards/buy) page. If you want to see your Pinguino Board in this page for sell, contact us.
-:::
-
-::: tip 2021-04-02
 * We have a new [Community page](https://github.com/PinguinoIDE/pinguinoide.github.io/discussions) !
 * Added a Youtube video in the [GNU/Linux Download section](/getting-started/download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
 :::
