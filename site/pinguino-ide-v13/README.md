@@ -1,39 +1,39 @@
-# Manual do Usuário da IDE
+# IDE User manual
 
-A janela principal do Ambiente de Desenvolvimento Integrado do Pinguino *ou Pinguino IDE* contém
-um editor de texto para escrever código, um console do shell do Python, um console de log, uma janela stdout,
-uma barra de ferramentas com botões para funções comuns, uma barra lateral, uma barra de status e uma série de menus.
-Ela conecta a uma placa Pinguino para carregar programas e se comunicar com ela.
+The Pinguino Integrated Development Environment *or Pinguino IDE* main window contains
+a text editor for writing code, a Python shell console, a log console, a stdout windows,
+a toolbar with buttons for common functions, a sidebar, a status bar and a series of menus.
+It connects to the Pinguino board to upload programs and communicate with them.
 
 ![Pinguino IDE main window](./pinguino-ide-v13.png)
 
 ## Menu
 
-Comandos adicionais são encontrados nos oito menus: Arquivo, Editar, Projeto, Ajustes, Fonte,
-Debug, Ferramentas, Ajuda.
+Additional commands are found within the eight menus: File, Edit, Project, Settings, Source,
+Debug, Tools, Help.
 
 ![Pinguino-ide-toolbar](./pinguino-ide-menu.png)
 
-## Barra de Ferramentas
+## Toolbar
 
-Os botões da barra de ferramentas permitem criar novo9s arquivos, criar novo arquivo de bloco, abrir arquivos,
-salvar o arquivo atual, desfazer a última ação, refazer, recortar o código selecionado, copiar, colar, pesquisar,
-selecionar a placa Pinguino correta, compilar e carregar seu código para a placa, e salvar a imagem compilada;
-nessa ordem.
+The toolbar buttons allow you to create new files, create new block file, open files,
+save the current file, undo the last action, redo, cut the selected code, copy, paste, search,
+select the right Pinguino board, compile and upload your code to the board, and save the compiled
+image; in that order.
 
 ![Pinguino-ide-toolbar](./pinguino-ide-toolbar.png)
 
-## Editor de Texto
+## Text editor
 
-Os programas são escritos na área do editor de texto editor e são salvos com a extensão `*.pde`.
-O editor tem os seguintes recursos:
+The programs are writen in the text editor area and are saved with the `*.pde` extension.
+The editor has the following features:
 
-* Cortar/copiar/colar texto.
-* Pesquisar/substituir texto.
-* Desfazer/refazer ações.
-* Comentar/descomentar regiões.
-* Indentar/Desindentar.
-* Gerenciar um ou mais arquivos simultaneamente através de abas.
+* Cutting/copy/pasting text.
+* Searching/replacing text.
+* Undo/redo actions.
+* Comment/uncomment regions.
+* Indent/Outdent.
+* Manage one or more files simultaneously through tabs.
 
 The text editor also have autocomplete capabilities, syntax highlighting and program line numbers.
 
