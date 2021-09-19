@@ -1,22 +1,23 @@
-# Manual do Usuário das Placas
+# Boards user manual
 
-As placas Pinguino são o núcleo do projeto e de sua comunidade.
+The pinguino boards are on the core of the project and it's community.
 
-Essa parte eletrônica é composta de pelo menos os seguintes blocos:
+This electronic part is composed of at least the following blocks:
 
-- Uma porta/conector USB.
-- Um microcontrolador.
-- Um botão de reset.
-- Um número de pinos ou conectores para entrada/saída.
+- A USB connector/port.
+- A microcontroller.
+- A reset switch.
+- A number of pins or connectors for input/output.
 
-O conector/porta USB é usado para conectar a placa ao computador, usá-lo como fonte de alimentação e
-programar o microcontrolador da placa.
+The USB connector/port is used to connect the board to the computer, use it as power supply and
+program the board's microcontroller.
 
-O microcontrolador é o cérebro da placa e onde o programa principal e instruções residem.
-Ele é programado através da IDE do Pinguino. O programa é escrito, compilado e carregado para a placa via USB.
+The microcontroller is the brain of the board and where the main program and instructions reside.
+It is programmed through Pinguino IDE, writing, compiling and uploading a program to the board via USB.
 
-Uma vez escrito e compilado, você precisa pressionar o botão de reset na placa, para colocá-la em modo
-de programação, assim a IDE do Pinguino pode carregar o código para o microcontrolador.
+Once the program is written and compiled, you need to press the reset button on the board,
+to put it in programming mode so that Pinguino IDE can upload the code to the microcontroller.
 
-A placa pode obter informação do ambiente usando sensores e controlá-lo através de atuadores. 
-Tanto os sensores quanto os atuadores são conectados a placa usando os pinos de entrada/saída que ela tem.
+The board can obtain information from its environment using sensors and control it by means 
+of actuators. Both the sensors and the actuators are connected to the board using the input / output 
+pins/connector that it has.
