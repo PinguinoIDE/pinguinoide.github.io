@@ -2,41 +2,40 @@
 permalink: /download
 ---
 
-# Project downloads
+# Downloads do Projeto
 
-In this page, you can find instructions and programs to install the Pinguino Project on your computer.
+Nessa página, você pode encontrar instruções e programas para instalar o Projeto Pinguino em seu computador.
 
-::: tip
-Please, read the *Release Notes* before install, in case you need to known something important about features or bugfixes shipped by the release, system requirements, or install instructions.
+::: dica
+Por favor, leia as *Notas de Revisão* antes de instalar, caso pŕecise saber algo importante sobre os recursos ou correções embarcados na revisão, requerimentos de sistema, ou instruções de instalação.
 :::
 
-Please, check our [Getting Started](/getting-started/) page for more information about how to use Pinguino.
+Por favor, verifique nossa página [Começando](/getting-started/) para mais informações sobre como usar o Pinguino.
 
-## for GNU/Linux
+## para GNU/Linux
 
-We are working on a new version of GNU/Linux installer.
+Estamos trabalhando em uma nova versão do instalador GNU/Linux.
 
-::: warning
-Currently, we have a Release Candidate of the installer. Please, be aware that it's a BETA release, so it can contains bugs.
+::: atenção
+Atualmente nós temos uma versão Release Candidate do instalador. Esteja ciente que é uma release BETA, assim pode conter bugs.
 :::
 
-|   Version   |  Published | Download | Release Notes |
-:------------:|:----------:|:--------:|:-------------:|
-| v2.0-beta.2 | 2021-04-14 |[installer-v2.sh](https://github.com/PinguinoIDE/pinguino-installers/releases/download/v2.0-beta.2/installer-v2.sh)|[Release Notes](https://github.com/PinguinoIDE/pinguino-installers/releases/tag/v2.0-beta.2)|
+|   Versão    |  Publicado | Download | Notas de Revisão |
+:------------:|:----------:|:--------:|:----------------:|
+| v2.0-beta.2 | 2021-04-14 |[installer-v2.sh](https://github.com/PinguinoIDE/pinguino-installers/releases/download/v2.0-beta.2/installer-v2.sh)|[Notas de Revisão](https://github.com/PinguinoIDE/pinguino-installers/releases/tag/v2.0-beta.2)|
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T2PtVOzfbKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## for Windows
+## para Windows
 
-Sory, we are working on a new version of Windows installer. Stay tunned!
+Desculpe, estamos trabalhando em uma nova versão do instalador para Windows. Fique de olho!
 
-## Terms of service
+## Termos de serviço
 
-> The Pinguino software is provided to you "as is" and we make no express or implied warranties
-whatsoever with respect to its functionality, operability, or use, including, without limitation,
-any implied warranties of merchantability, fitness for a particular purpose, or infringement.
-We expressly disclaim any liability whatsoever for any direct, indirect, consequential,
-incidental or special damages, including, without limitation, lost revenues, lost profits,
-losses resulting from business interruption or loss of data, regardless of the form of action
-or legal theory under which the liability may be asserted, even if advised of the possibility or
-likelihood of such damages.
+> O software Pinguino é fornecido "como é", não damos quaisquer garantias expressas ou implícitas
+com respeito a sua funcionalidade, operabilidade, uso, incluindo, sem limitação, 
+quaisquer garantias implícitas de comercialização, aplicação para propósito particular, ou infringemento.
+Nós expressamente nos isentamos de qualquer responsabilidade por quaisquer danos, sejam indiretos, consequenciais,
+incidentais, ou especiais, incluindo, sem limitação, perda de rendimentos, lucros,
+perdas resultantes de interrupção de negócios ou até mesmo perda de dados, independente da forma da ação ou
+teoria legal em que a garantia possa ser atribuída, mesmo se avisado da possibilidade ou probabilidade de tais danos.
