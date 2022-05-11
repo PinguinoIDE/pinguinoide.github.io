@@ -55,11 +55,16 @@ Connect the board to your PC and upload the code. Enjoy!
 
 ## :loudspeaker: Announcements
 
-::: tip 2021-07
+::: tip May 2022
+* Fixed support for SSD1306 I2C OLED on PIC18Fx550. Thanks to [@PaoloDooM](https://github.com/PaoloDooM) for your [Pull Request #26](https://github.com/PinguinoIDE/pinguino-libraries/pull/26).
+* We've submitted a talk proposal for [The Linux Foundation Open Source Summit Latin America Conference](https://events.linuxfoundation.org/open-source-summit-latin-america/) ! Cross your finger...
+:::
+
+::: tip Jun 2021
 * Added a new [1-Wire](/language-reference/1wire) Language Reference page. Thanks to [@swhomans](https://github.com/swhomans) for the contribution.
 :::
 
-::: tip 2021-04
+::: tip April 2021
 * Added a new [Wiring Base](/language-reference/wiring-base) Language Reference page. Thanks to [@swhomans](https://github.com/swhomans) for the contribution.
 * Updated the [8-bit Pinguino Boards](/pinguino-boards/supported-boards-8) page.
 * A new [v2.0-beta.2](/download/) Pinguino installer for GNU/Linux has been released ! Thanks to [@iz3gme](https://github.com/iz3gme) for the contribution.
