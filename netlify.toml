@@ -10,6 +10,9 @@
   # Directory that contains the deploy-ready files.
   publish = "site/.vuepress/dist"
 
+[context.production]
+  environment = { NODE_VERSION = "14" }
+
 [context.deploy-preview]
   environment = { NODE_VERSION = "14" }
 
