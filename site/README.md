@@ -47,7 +47,8 @@ void loop() {
 }
 ```
 
-Pinguino boards are programmed using the [Processing language](/language-reference).
+Pinguino boards are programmed using the [Pinguino language](/language-reference), that in turn,
+is based on Wiring and Processing Languages.
 
 ### 3. Upload
 
