@@ -12,11 +12,12 @@ in your house.
 * Pinguino is an Open Source Integrated Development Environment (IDE).
 * Pinguino is an Open Hardware board, compatible both with 8-bit
   (PIC18F with built-in USB module only) and 32-bit (PIC32MX) ©Microchip Microcontrollers.
-* Pinguino uses free and open source compilers (SDCC and gcc-mips-elf,
+* Pinguino uses free and open source compilers ([SDCC](http://sdcc.sourceforge.net/),
+  small device C compiler; and [gcc-mips-elf](https://gcc.gnu.org/onlinedocs/gcc/MIPS-Options.html),
   a targeted version of gcc for PIC32 microcontrollers) available for GNU/Linux,
   Windows and Mac OS X.
 * Pinguino is a firmware/bootloader that control the Pinguino Board.
-* Pinguino is almost 100% compatible with Arduino Language and Libraries.
+* Pinguino is 90% compatible with Arduino Language and Libraries.
 
 ## Pinguino IDE
 
@@ -52,3 +53,7 @@ We will always be happy to receive help. There are many areas in this project th
 you can be part of, you don't have to be a programmer or an electronics expert.
 
 Check out the [join-us](/getting-started/join-us) page for more information.
+
+## About Us
+
+See the [about us](/getting-started/about-us) page to learn more about the Pinguino Project history.
