@@ -34,7 +34,8 @@ module.exports = {
         children: [
           '/getting-started/',
           '/getting-started/download',
-          '/getting-started/join-us'
+          '/getting-started/join-us',
+          '/news/'
         ]
       },
       {

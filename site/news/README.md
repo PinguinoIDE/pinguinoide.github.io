@@ -4,30 +4,10 @@ title: Project News
 
 # Latest News
 
-## New GNU/Linux beta installer
+## IDE v11 still works on W11
 
-*Nov 07, 2020*
+*Oct 16, 2023*
 
-We have a new GNU/Linux installer. Try it out !
+Pinguino IDE v11 and it's installer still works on Windows 11.
 
-It's for the current stable version of Pinguino IDE v13, with Python3.
-
-## Building new installer
-
-*June 13, 2020*
-
-We are building a new Windows installer v1.8.X series for the Pinguino IDE v13.
-
-Some of the exciting features it will bring are:
-
-- Pinguino IDE v13
-- Python 3.7.7
-- Install folder now inside user documents
-
-We hope to have it ready soon!
-
-## New ES-ar website language
-
-*April 19, 2020*
-
-60% of all our visitors speak Spanish, so... Ya está disponible la versión en Español del sitio. [Ver ahora!](/es/)
+You can check the video on the Windows section of our download page, while we still works on a new version of v13 Windows installer.
