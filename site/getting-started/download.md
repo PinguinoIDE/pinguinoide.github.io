@@ -28,7 +28,13 @@ Currently, we have a Release Candidate of the installer. Please, be aware that i
 
 ## for Windows
 
-Sory, we are working on a new version of Windows installer. Stay tunned!
+Currently you can download the Pinguino IDE v11 Windows installer, while we finish the v13 installer. Keep in mind that this version works with Python v2.7
+
+|   Version   |  Published | Download | Release Notes |
+:------------:|:----------:|:--------:|:-------------:|
+| v11 | 2020-03-14 |[Pinguino-installer-v1.7.1.4.exe](https://github.com/PinguinoIDE/pinguino-installers/releases/download/2020.03.14-STABLE/Pinguino-installer-v1.7.1.4.exe)|[Release Notes](https://github.com/PinguinoIDE/pinguino-installers/releases/tag/2020.03.14-STABLE)|
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CKqhUMTtjzM?si=YWVvin1gJ9_bEHRz&amp;start=121" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Terms of service
 

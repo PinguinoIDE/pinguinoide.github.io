@@ -38,6 +38,15 @@ module.exports = {
         ]
       },
       {
+        title: 'Project News',
+        collapsable: false,
+        children: [
+          '/news/',
+          '/news/2022',
+          '/news/2020'
+        ]
+      },
+      {
         title: 'Pinguino IDE v13',
         collapsable: false,
         children: [
