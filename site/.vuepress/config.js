@@ -34,8 +34,16 @@ module.exports = {
         children: [
           '/getting-started/',
           '/getting-started/download',
-          '/getting-started/join-us',
-          '/news/'
+          '/getting-started/join-us'
+        ]
+      },
+      {
+        title: 'Project News',
+        collapsable: false,
+        children: [
+          '/news/',
+          '/news/2022',
+          '/news/2021'
         ]
       },
       {

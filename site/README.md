@@ -75,4 +75,4 @@ Connect the board to your PC and upload the code. Enjoy!
 * Added a Youtube video in the [GNU/Linux Download section](/getting-started/download) to install the new Pinguino IDE v13 with Spanish audio and English subtitles.
 :::
 
-<center>[More news](/news/)</center>
+[More news](/news/)
