@@ -43,7 +43,7 @@ module.exports = {
         children: [
           '/news/',
           '/news/2022',
-          '/news/2021'
+          '/news/2020'
         ]
       },
       {
