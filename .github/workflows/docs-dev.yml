@@ -1,9 +1,9 @@
-name: docs
+name: docs-dev
 
 on:
   # trigger deployment on every push to main branch
   push:
-    branches: [github-pages]
+    branches-ignores: [master]
   # trigger deployment manually
   workflow_dispatch:
 
@@ -18,12 +18,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 12
-
       - run: yarn install
 
       # run build script
       - name: Build VuePress site
         run: yarn build
+        env:
+          VUEPRESS_BASE: /pinguinoide.github.io/
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
