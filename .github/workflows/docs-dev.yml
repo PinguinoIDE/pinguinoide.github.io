@@ -3,7 +3,7 @@ name: docs-dev
 on:
   # trigger deployment on every push to main branch
   push:
-    branches-ignores: [master]
+    branches-ignore: [master]
   # trigger deployment manually
   workflow_dispatch:
 
