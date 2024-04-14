@@ -1,4 +1,5 @@
 module.exports = {
+  base: process.env.VUEPRESS_BASE || '/',
   title: 'Pinguino project',
   description: 'Physical computing for everyone',
   locales: {
