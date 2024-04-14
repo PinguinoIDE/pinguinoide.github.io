@@ -3,7 +3,7 @@ name: docs
 on:
   # trigger deployment on every push to main branch
   push:
-    branches: [main]
+    branches: [github-pages]
   # trigger deployment manually
   workflow_dispatch:
 
@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # This version of Vuepress need node v12
       - uses: actions/setup-node@v4
         with:
           node-version: 12
