@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/pinguinoide.github.io',
   title: 'Pinguino project',
   description: 'Physical computing for everyone',
   locales: {
