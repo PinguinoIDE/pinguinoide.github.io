@@ -1,23 +1,28 @@
 ---
-home: true
-heroImage: /pinguino-logo.png
-heroText: Proyecto Pinguino
-actionText: Descargar =>
-actionLink: /#descargar
+layout: home
+
+hero:
+  name: Proyecto Pinguino
+  tagline: Computación Física para todos
+  image:
+    src: /pinguino-logo.png
+    alt: Logo de Proyecto Pinguino
+  actions:
+    - text: Descargar =>
+      link: /getting-started/download.md
 features:
-- title: Fácil
-  details: Fácilmente programable con la sintaxis de Arduino que ya conoces.
-- title: Open Source
-  details: Plataforma de Hardware abierto. Una PCB que puedes fabricar tu mismo.
-- title: Multi Plaraforma
-  details: Paquetes de 32 y 64-bits, GNU/Linux y Windows.
-- title: IDE Poderoso
-  details: Poderoso Entorno de Desarrollo Integrado (IDE) basado en Python.
-- title: Diverso
-  details: Soporta un amplio rango de microcontroladores Microchip de 8 y 32-bits.
-- title: Multiples Periféricos
-  details: USB nativo, Serial, I2C, SPI, PWM y más, todo listo para usar.
-footer: Copyright © Regis Blanchot | Este sitio = Vuepress + Netlify + Cloudflare + Coffee + Love
+  - title: Fácil
+    details: Fácilmente programable con la sintaxis de Arduino que ya conoces.
+  - title: Open Source
+    details: Plataforma de Hardware abierto. Una PCB que puedes fabricar tu mismo.
+  - title: Multi Plaraforma
+    details: Paquetes de 32 y 64-bits, GNU/Linux y Windows.
+  - title: IDE Poderoso
+    details: Poderoso Entorno de Desarrollo Integrado (IDE) basado en Python.
+  - title: Diverso
+    details: Soporta un amplio rango de microcontroladores Microchip de 8 y 32-bits.
+  - title: Multiples Periféricos
+    details: USB nativo, Serial, I2C, SPI, PWM y más, todo listo para usar.
 ---
 
 ## Tan fácil como 1, 2, 3

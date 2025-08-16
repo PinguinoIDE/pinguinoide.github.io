@@ -1,22 +1,28 @@
-module.exports = {
-  base: process.env.VUEPRESS_BASE || '/',
+export default {
+  // base: process.env.VITEPRESS_BASE || '/',
   title: 'Pinguino project',
   description: 'Physical computing for everyone',
+  footer: {
+    copyright: 'Copyright © Regis Blanchot'
+  },
   locales: {
-    '/': {
+    root: {
+      label: 'English',
       lang: 'en-US',
-      title: 'Pinguino project',
-      description: 'Physical computing for everyone',
     },
-    '/es/': {
-      lang: 'es-AR',
+    es: {
+      lang: 'es',
+      label: 'Español',
+      link: '/es',
       title: 'Proyecto Pinguino',
-      description: 'Computación física para todos',
+      description: 'Computación Física para todos'
     },
-    '/pt/': {
+    pt: {
       lang: 'pt-BR',
+      label: 'Portuguese',
+      link: '/pt',
       title: 'Projeto Pinguino',
-      description: 'Computação física para todos',
+      description: 'Computação Física para todos'
     }
   },
   themeConfig: {
@@ -25,6 +31,10 @@ module.exports = {
     docsDir: 'site',
     editLinks: true,
     lastUpdated: true,
+      search: {
+          provider: 'local'
+      },
+      i18nRouting: true,
     nav: [
       { text: 'Community', link: 'https://github.com/PinguinoIDE/pinguinoide.github.io/discussions' },
     ],
@@ -76,12 +86,4 @@ module.exports = {
       },
     ]
   },
-  plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'UA-160403552-1' // UA-00000000-0
-      }
-    ]
-  ]
-};
+}
