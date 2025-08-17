@@ -33,7 +33,7 @@ Faça Download e instale a IDE Pinguino em seu computador.
 
 ### 2) Escreva e compile
 
-```processing
+```cpp
 // a função setup roda uma vez quando você pressiona o botão de reset na placa
 void setup() {
 

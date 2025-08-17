@@ -15,7 +15,7 @@ The `1wire.readbit()` function reads a bit from the one-wire bus and returns it.
 
 ### Syntax
 
-```processing
+```cpp
 u8 1wire.readbit(u8 pin); // P8 and P32
 ```
 
@@ -31,7 +31,7 @@ The value of the bit read from the one-wire data line: 0 or 1
 
 ### Example 
 
-```processing
+```cpp
 u8 OneWireRead(u8 pin)
 {
 	u8 i, value = 0;	
@@ -61,7 +61,7 @@ The `1wire.readbyte()` function reads a byte from the one-wire bus and returns i
 
 ### Syntax
 
-```processing
+```cpp
 u8 1wire.readbyte(u8 pin);  //(P8 and P32)
 ```
 
@@ -78,7 +78,7 @@ The value of the byte read from the one-wire data line.
 
 ### Example
 
-```processing
+```cpp
 // example for P8 - 18f4550
 while (busy == 0)		// Wait while busy ( = bus is low)
     busy = 1wire.readbyte(0);	// One-Wire bus is on pin 0 (RB0)
@@ -101,7 +101,7 @@ The `1wire.reset()` function performs a reset on the one-wire bus and returns th
 
 ### Syntax
 
-```processing
+```cpp
 u8 1wire.reset(u8 pin);  //(P8 and P32)
 ```
 
@@ -119,7 +119,7 @@ If there is no one-wire device on the one-wire then the pull-up resistor ensures
 
 ### Example
 
-```processing
+```cpp
 if (1wire.reset(0)) return FALSE;
 ```
 
@@ -140,7 +140,7 @@ The `1wire.writebit()` function writes a bit to the one-wire bus.
 
 ### Syntax
 
-```processing
+```cpp
 void 1wire.writebit(u8 pin, u8 val);  //(P8 and P32)
 ```
 
@@ -158,7 +158,7 @@ None.
 
 ### Example
 
-```processing
+```cpp
 void OneWireWrite(u8 pin, u8 val) // P8 and P32
 {
     u8 i, temp;
@@ -187,7 +187,7 @@ The `writebyte()` function writes a byte to the one-wire bus.
 
 ### Syntax
 
-```processing
+```cpp
 void 1wire.writebyte(u8 pin, u8 val);  //(P8 and P32)
 ```
 

@@ -27,7 +27,7 @@ features:
 
 ## Tan fácil como 1, 2, 3
 
-```processing
+```cpp
 // La función setup() se ejecuta una sola vez cuando enciende la placa,
 // o cuando presionas RESET.
 void setup() {

@@ -24,7 +24,7 @@ The `abs()` function returns the absolute value of a floating point number.
 
 ### Syntax
 
-```processing
+```cpp
 abs(x);  //(P8 and P32)
 ```
 
@@ -57,7 +57,7 @@ The `analogRead()` function reads the value on an analog pin to 10 bits resoluti
 
 ### Syntax
 
-```processing
+```cpp
 analogRead(pin);  //(P8 and P32)
 ```
 
@@ -73,7 +73,7 @@ Returns a value proportional to the voltage applied on the selected pin:  0..5v 
 
 ### Example
 
-```processing
+```cpp
 // level detector (P8) by J P Mandon
  
 int level;
@@ -110,7 +110,7 @@ The `analogWrite()` function sets an analog signal on a pin via pulse width modu
 
 ### Syntax
 
-```processing
+```cpp
 analogWrite(pin,value);  //(P8 and P32)
 ```
 
@@ -127,7 +127,7 @@ None
 
 ### Example
 
-```processing
+```cpp
 void setup()
 {
 }
@@ -154,7 +154,7 @@ The `cos()` function returns the cosine of parameter x, where x is given in radi
 
 ### Syntax
 
-```processing
+```cpp
 cos(x);  //(P8 and P32)
 ```
 
@@ -187,7 +187,7 @@ The `delay()` function instructs the processor to wait for a specified period of
 
 ### Syntax
 
-```processing
+```cpp
 delay(x);  //(P8 and P32)
 ```
 
@@ -216,7 +216,7 @@ The `delayMicroseconds()` function instructs the processor to wait for a specifi
 
 ### Syntax
 
-```processing
+```cpp
 delayMicroseconds(x);  //(P8 and P32)
 ```
 
@@ -245,7 +245,7 @@ The `digitalRead()` function reads the value of a digital input pin. Possible va
 
 ### Syntax
 
-```processing
+```cpp
 digitalRead(pin);  //(P8 and P32)
 ```
 
@@ -261,7 +261,7 @@ The voltage level of the pin - `LOW` corresponds to a level nominally 0 volts (P
 
 ### Example
 
-```processing
+```cpp
 // Testing input by J P Mandon
  
 void setup()
@@ -300,7 +300,7 @@ The `digitalWrite()` function sets the value of a digital output pin. Possible v
 
 ### Syntax
 
-```processing
+```cpp
 digitalWrite(pin,value);  //(P8 and P32)
 ```
 
@@ -317,7 +317,7 @@ None
 
 ### Example
 
-```processing
+```cpp
 int outpin = 8;
 
 void setup() {
@@ -350,7 +350,7 @@ The `millis()` function returns the time elapsed since the beginning of the prog
 
 ### Syntax
 
-```processing
+```cpp
 millis();  //(P8 and P32)
 ```
 
@@ -365,7 +365,7 @@ To reset the counter use `_millis = 0;`
 
 ### Example
 
-```processing
+```cpp
 void setup()
 {
 pinMode(0,OUTPUT);
@@ -393,7 +393,7 @@ The `pinMode()` function configures a given pin as input or output.
 
 ### Syntax
 
-```processing
+```cpp
 pinMode(pin,mode); //(P8 and P32)
 ```
 
@@ -410,7 +410,7 @@ none
 
 ### Example
 
-```processing
+```cpp
 // Testing input J P Mandon
 
 int led1;
@@ -449,7 +449,7 @@ The `pow()` function returns the value of x raised to the power y.
 
 ### Syntax
 
-```processing
+```cpp
 pow(x,y);  //(P8 and P32)
 ```
 
@@ -483,7 +483,7 @@ The `randomSeed()` function sets its argument as the seed for the sequence of ps
 
 ### Syntax
 
-```processing
+```cpp
 randomSeed(seed); //(P8 and P32)
 rand();
 ```
@@ -500,7 +500,7 @@ None
 
 ### Example
 
-```processing
+```cpp
 // Blink an LED attached to pin 11 for random periods
 #define MYLED 11
  
@@ -542,7 +542,7 @@ The `sin()` function returns the sine of parameter x, where x is given in radian
 
 ### Syntax
 
-```processing
+```cpp
 sin(x);  //(P8 and P32)
 ```
 
@@ -575,7 +575,7 @@ The `sqrt()` function returns the (non-negative) square root of parameter x.
 
 ### Syntax
 
-```processing
+```cpp
 sqrt(x);  //(P8 and P32)
 ```
 
@@ -608,7 +608,7 @@ The `tan()` function returns the tangent of parameter x, where x is given in rad
 
 ### Syntax
 
-```processing
+```cpp
 tan(x);  //(P8 and P32)
 ```
 

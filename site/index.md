@@ -34,7 +34,7 @@ how to use it? Check the [Pinguino IDE v13 user manual](/pinguino-ide-v13).
 
 ### 2. Write and compile
 
-```processing
+```cpp
 // the setup function runs once when you press reset or power the board
 void setup() {
 
