@@ -1,5 +1,5 @@
 export default {
-  // base: process.env.VITEPRESS_BASE || '/',
+  base: process.env.VITEPRESS_BASE || '/',
   title: 'Pinguino project',
   description: 'Physical computing for everyone',
   footer: {
@@ -40,48 +40,41 @@ export default {
     ],
     sidebar: [
       {
-        title: 'Getting Started',
+        text: 'Getting Started',
         collapsable: false,
-        children: [
-          '/getting-started/',
-          '/getting-started/download',
-          '/getting-started/join-us'
+        link: '/getting-started',
+        items: [
+          { text: 'Download', link: '/getting-started/download' },
+          { text: 'Join Us', link: '/getting-started/join-us' }
         ]
       },
       {
-        title: 'Project News',
+        text: 'Project News',
+        link: '/news',
+        items: [
+          { text: '2022', link: '/news/2022' },
+          { text: '2020', link: '/news/2020' }
+        ]
+      },
+      { text: 'Pinguino IDE v13', link: '/pinguino-ide-v13' },
+      {
+        text: 'Pinguino Boards',
+        link: '/pinguino-boards',
         collapsable: false,
-        children: [
-          '/news/',
-          '/news/2022',
-          '/news/2020'
+        items: [
+          { text: '8-bit Supported Boards', link: '/pinguino-boards/supported-boards-8' },
+          { text: '32-bit Supported Boards', link: '/pinguino-boards/supported-boards-32' },
+          { text: 'Buy a Board', link: '/pinguino-boards/buy' },
+          { text: 'Do it Yourself!', link: '/pinguino-boards/DIY' }
         ]
       },
       {
-        title: 'Pinguino IDE v13',
+        text: 'Language Reference',
         collapsable: false,
-        children: [
-          '/pinguino-ide-v13/'
-        ]
-      },
-      {
-        title: 'Pinguino Boards',
-        collapsable: false,
-        children: [
-          '/pinguino-boards/',
-          '/pinguino-boards/supported-boards-8',
-          '/pinguino-boards/supported-boards-32',
-          '/pinguino-boards/buy',
-          '/pinguino-boards/DIY'
-        ]
-      },
-      {
-        title: 'Language Reference',
-        collapsable: false,
-        children: [
-          '/language-reference/',
-          '/language-reference/wiring-base',
-          '/language-reference/1wire'
+        link: '/language-reference',
+        items: [
+          { text: 'Wiring Base', link: '/language-reference/wiring-base' },
+          { text: '1Wire', link: '/language-reference/1wire' }
         ]
       },
     ]
