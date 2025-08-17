@@ -83,5 +83,8 @@ export default {
     toc: {
       level: [2, 2]
     }
-  }
+  },
+  head: [
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=UA-160403552-1' }]
+  ]
 }
