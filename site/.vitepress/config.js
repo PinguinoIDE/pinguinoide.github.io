@@ -2,9 +2,6 @@ export default {
   base: process.env.VITEPRESS_BASE || '/',
   title: 'Pinguino project',
   description: 'Physical computing for everyone',
-  footer: {
-    copyright: 'Copyright © Regis Blanchot'
-  },
   locales: {
     root: {
       label: 'English',
@@ -77,6 +74,9 @@ export default {
           { text: '1Wire', link: '/language-reference/1wire' }
         ]
       },
-    ]
-  },
+    ],
+    footer: {
+      copyright: 'Copyright © Regis Blanchot'
+    }
+  }
 }
