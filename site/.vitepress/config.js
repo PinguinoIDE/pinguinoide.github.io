@@ -77,6 +77,11 @@ export default {
     ],
     footer: {
       copyright: 'Copyright © Regis Blanchot'
+    },
+  },
+  markdown: {
+    toc: {
+      level: [2, 2]
     }
   }
 }
