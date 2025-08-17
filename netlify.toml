@@ -11,10 +11,10 @@
   publish = "site/.vitepress/dist"
 
 [context.production]
-  environment = { NODE_VERSION = "14" }
+  environment = { NODE_VERSION = "22" }
 
 [context.deploy-preview]
-  environment = { NODE_VERSION = "14" }
+  environment = { NODE_VERSION = "22" }
 
 [[redirects]]
   from = "/download/"
