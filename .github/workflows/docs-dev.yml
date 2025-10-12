@@ -14,17 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # This version of Vuepress need node v12
+      # This version of Vitepress need node v12
       - uses: actions/setup-node@v4
         with:
-          node-version: 12
+          node-version: 22
       - run: yarn install
 
       # run build script
-      - name: Build VuePress site
+      - name: Build VitePress site
         run: yarn build
         env:
-          VUEPRESS_BASE: /pinguinoide.github.io/
+          VITEPRESS_BASE: /pinguinoide.github.io/
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
@@ -33,8 +33,8 @@ jobs:
         with:
           # deploy to gh-pages branch
           target_branch: gh-pages
-          # deploy the default output dir of VuePress
-          build_dir: site/.vuepress/dist
+          # deploy the default output dir of VitePress
+          build_dir: site/.vitepress/dist
         env:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

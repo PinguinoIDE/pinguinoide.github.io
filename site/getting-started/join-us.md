@@ -12,7 +12,7 @@ There are many areas where you can help to this project to grow. Not only coding
 
 - Our IDE is developed in Python. Feel free to add new features or fix any bug in it.
 - The Windows installer is developed with the Nullsoft Install System framework, and the GNU/Linux installer is writen in Bash.
-- This website was build using Vuepress and content writen using Markdown syntax.
+- This website was build using Vitepress and content writen using Markdown syntax.
 
 ## Build / Sell
 

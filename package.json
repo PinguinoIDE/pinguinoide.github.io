@@ -7,11 +7,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "vuepress dev site",
-    "build": "vuepress build site"
+    "start": "vitepress dev site",
+    "build": "vitepress build site"
   },
   "dependencies": {
-    "vuepress": "*",
-    "@vuepress/plugin-google-analytics": "*"
+    "vitepress": "^2.0.0-alpha.11"
   }
 }

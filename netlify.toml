@@ -8,13 +8,13 @@
   command = "yarn build"
 
   # Directory that contains the deploy-ready files.
-  publish = "site/.vuepress/dist"
+  publish = "site/.vitepress/dist"
 
 [context.production]
-  environment = { NODE_VERSION = "14" }
+  environment = { NODE_VERSION = "22" }
 
 [context.deploy-preview]
-  environment = { NODE_VERSION = "14" }
+  environment = { NODE_VERSION = "22" }
 
 [[redirects]]
   from = "/download/"

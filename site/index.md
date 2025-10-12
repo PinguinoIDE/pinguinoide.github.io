@@ -1,23 +1,28 @@
 ---
-home: true
-heroImage: /pinguino-logo.png
-heroText: Pinguino Project
-actionText: Download
-actionLink: /download/
+layout: home
+
+hero:
+  name: Pinguino Project
+  tagline: Physical Computing for everyone
+  image:
+    src: /pinguino-logo.png
+    alt: Pinguino Project Logo
+  actions:
+    - text: Download
+      link: /getting-started/download.md
 features:
-- title: Easy
-  details: Easily programmable with the Arduino-based syntax you already know.
-- title: Open Source
-  details: Open Source Hardware platform. A PCB that you can build yourself.
-- title: Cross Platform
-  details: 32 and 64-bit GNU/Linux and Windows packages.
-- title: Powerful IDE
-  details: Powerful Integrated Development Environement (IDE)
-- title: Diverse
-  details: Support a wide range of Microchip 8 and 32-bit microcontrollers.
-- title: Multi-Peripherals
-  details: Native USB, Serial, I2C, SPI, PWM and more, out-of-the-box.
-footer: Copyright © Regis Blanchot
+  - title: Easy
+    details: Easily programmable with the Arduino-based syntax you already know.
+  - title: Open Source
+    details: Open Source Hardware platform. A PCB that you can build yourself.
+  - title: Cross Platform
+    details: 32 and 64-bit GNU/Linux and Windows packages.
+  - title: Powerful IDE
+    details: Powerful Integrated Development Environement (IDE)
+  - title: Diverse
+    details: Support a wide range of Microchip 8 and 32-bit microcontrollers.
+  - title: Multi-Peripherals
+    details: Native USB, Serial, I2C, SPI, PWM and more, out-of-the-box.
 ---
 
 ## As easy as 1, 2, 3
@@ -29,7 +34,7 @@ how to use it? Check the [Pinguino IDE v13 user manual](/pinguino-ide-v13).
 
 ### 2. Write and compile
 
-```processing
+```cpp
 // the setup function runs once when you press reset or power the board
 void setup() {
 
