@@ -30,7 +30,7 @@ features:
 ### 1. Get de IDE
 
 [Download and install](/getting-started/download) the Pinguino IDE in your computer. Don't known 
-how to use it? Check the [Pinguino IDE v13 user manual](/pinguino-ide-v13).
+how to use it? Check the [Pinguino IDE v13 user manual](/pinguino-ide-v13/index.md).
 
 ### 2. Write and compile
 
@@ -52,7 +52,7 @@ void loop() {
 }
 ```
 
-Pinguino boards are programmed using the [Pinguino language](/language-reference), that in turn,
+Pinguino boards are programmed using the [Pinguino language](/language-reference/), that in turn,
 is based on Wiring and Processing Languages.
 
 ### 3. Upload
@@ -60,6 +60,10 @@ is based on Wiring and Processing Languages.
 Connect the board to your PC and upload the code. Enjoy!
 
 ## :loudspeaker: Announcements
+
+::: tip Oct 2025
+* Thanks to [@erickisos](https://github.com/erickisos) for migrate this site to VitePress.
+:::
 
 ::: tip May 2022
 * Fixed support for SSD1306 I2C OLED on PIC18Fx550. Thanks to [@PaoloDooM](https://github.com/PaoloDooM) for your [Pull Request #26](https://github.com/PinguinoIDE/pinguino-libraries/pull/26).
@@ -73,7 +77,7 @@ Connect the board to your PC and upload the code. Enjoy!
 ::: tip April 2021
 * Added a new [Wiring Base](/language-reference/wiring-base) Language Reference page. Thanks to [@swhomans](https://github.com/swhomans) for the contribution.
 * Updated the [8-bit Pinguino Boards](/pinguino-boards/supported-boards-8) page.
-* A new [v2.0-beta.2](/download/) Pinguino installer for GNU/Linux has been released ! Thanks to [@iz3gme](https://github.com/iz3gme) for the contribution.
+* A new [v2.0-beta.2](/getting-started/download) Pinguino installer for GNU/Linux has been released ! Thanks to [@iz3gme](https://github.com/iz3gme) for the contribution.
 * New [pt-BR](/pt/) language translation for this website. Thanks to [@luzemario](https://github.com/luzemario) for their contribution.
 * Added a new [/pinguino-boards/buy](/pinguino-boards/buy) page. If you want to see your Pinguino Board in this page for sell, contact us.
 * We have a new [Community page](https://github.com/PinguinoIDE/pinguinoide.github.io/discussions) !

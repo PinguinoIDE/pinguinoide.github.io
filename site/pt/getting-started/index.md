@@ -25,13 +25,13 @@ na sua casa.
 O IDE do Pinguino é cross-platform, ele roda em Linux, Windows e Mac OS X. Com esse IDE, 
 você pode escrever, compilar e carregar código na sua placa.
 
-[Baixe e instale](/download/) para começar.
-Leia mais sobre [Pinguino IDE v13](/getting-started/01-pinguino-ide) para aprender.
+[Baixe e instale](/getting-started/download.md) para começar.
+Leia mais sobre [Pinguino IDE v13](/pinguino-ide-v13/) para aprender.
 
 ## Placas Pinguino
 
 As placas Pinguino são uma platafroma de prototipagem eletrônica de hardware aberto, que podem ser 
-[compradas](/getting-started/02-pinguino-boards), ou [feitas por conta pŕopria (DIY)](/boards).
+[compradas](/pinguino-boards/buy.md), ou [feitas por conta pŕopria (DIY)](/pinguino-boards/DIY.md).
 
 O Pinguino vem com um USB Bootloader também. Esse pequeno programa rodando dentro do microcontrolador
 é responsável por transferir sua aplicação do PC para a memória do microcontrolador

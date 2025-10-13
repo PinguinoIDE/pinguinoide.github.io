@@ -24,7 +24,7 @@ in your house.
 Pinguino IDE is cross-platform, it run on Linux, Windows and Mac OS X. With this IDE, 
 you can write, compile and upload code to your board.
 
-[Download and install it](/download/) to start.
+[Download and install it](/getting-started/download) to start.
 Read more about [Pinguino IDE v13](/pinguino-ide-v13/) to learn.
 
 ## Pinguino boards
