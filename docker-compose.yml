@@ -1,5 +1,3 @@
-version: "3"
-
 networks:
   lan:
 
@@ -7,11 +5,11 @@ services:
   pinguino-cc:
     build: .
     container_name: pinguino-cc
-    working_dir: /usr/src
-    command: ["yarn", "start"]
+    working_dir: /app
+    command: ["yarn", "start", "--host", "0.0.0.0", "--port", "5173"]
     networks:
       - lan
     ports:
-      - "8080:8080"
+      - "5173:5173"
     volumes:
-      - ./:/usr/src/
+      - ./:/app

@@ -30,4 +30,4 @@ Esperamos que esteja pronta em breve!
 
 *25/11/2020*
 
-Já está disponível a versão em Protuguês do Brasil deste site. [Ver agora!](/pt_BR/)
+Já está disponível a versão em Protuguês do Brasil deste site. [Ver agora!](/pt/)

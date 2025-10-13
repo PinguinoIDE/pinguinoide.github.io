@@ -2,7 +2,7 @@
 
 ::: tip
 Essa seção é sobre a construção de uma placa. Se você quiser **comprar uma placa**, por favor vá para 
-[getting-started/02-boards page](/getting-started/02-pinguino-boards).
+[getting-started/02-boards page](/pinguino-boards/).
 :::
 
 O diagrama, formato físico e tamanho de uma placa pode variar e depende de como cada pessoa a desenhou,

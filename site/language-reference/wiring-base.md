@@ -80,7 +80,7 @@ else digitalWrite(0,LOW);             // else reset pin 0 LOW
 
 IDE defined 'pins' that can read an analog value depend on the device.
 Typically, if one pin is used as analog input, all remaining analog pins are configured as analog inputs.
-See [Pinguino Boards page](/pinguino-boards) for details of pin mapping.
+See [Pinguino Boards page](/pinguino-boards/) for details of pin mapping.
 NB - exceeding an input voltage of 5v (P8) or 3.3v (P32) is likely to destroy the device.
 
 ### Relates
@@ -265,7 +265,7 @@ void loop()
 ### Notes
 
 The parameter `pin` refers to the IDE defined 'pin', which typically differs from the device physical pin.
-See [Pinguino Boards page](/pinguino-boards) for details of pin mapping.
+See [Pinguino Boards page](/pinguino-boards/) for details of pin mapping.
 The relevant pin should be configured as input using `pinMode()`.
 
 ### Relates
@@ -315,7 +315,7 @@ void loop() {
 ### Notes
 
 The parameter `pin` refers to the IDE defined 'pin', which typically differs from the device physical pin.
-See [Pinguino Boards page](/pinguino-boards) for details of pin mapping.
+See [Pinguino Boards page](/pinguino-boards/) for details of pin mapping.
 The parameter `LOW` sets the pin nominally to 0 volts (P8 and P32). The parameter `HIGH` sets the pin nominally to 5 volts (P8) or 3.3 volts (P32).
 
 ### Relates
