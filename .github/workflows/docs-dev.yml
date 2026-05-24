@@ -9,6 +9,8 @@ on: workflow_dispatch
 jobs:
   docs-dev:
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
 
     steps:
       - uses: actions/checkout@v4
