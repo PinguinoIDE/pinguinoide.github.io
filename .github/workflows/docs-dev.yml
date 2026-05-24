@@ -6,6 +6,9 @@ on: workflow_dispatch
     #branches-ignore: [master]
   # trigger deployment manually
 
+permissions:
+  contents: write
+
 jobs:
   docs-dev:
     runs-on: ubuntu-latest
