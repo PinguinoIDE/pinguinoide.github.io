@@ -13,10 +13,10 @@ jobs:
       pages: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # This version of Vitepress need node v12
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
       - run: yarn install
@@ -30,7 +30,7 @@ jobs:
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           # deploy to gh-pages branch
           target_branch: gh-pages
