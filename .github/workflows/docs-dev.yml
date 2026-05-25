@@ -1,10 +1,9 @@
 name: docs-dev
 
-on: workflow_dispatch
-  # trigger deployment on every push to main branch
-  #push:
-    #branches-ignore: [master]
-  # trigger deployment manually
+on:
+  pull_request:
+    branches-ignore:
+      - main
 
 jobs:
   docs-dev:
@@ -13,12 +12,11 @@ jobs:
       pages: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      # This version of Vitepress need node v12
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
       - run: yarn install
 
       # run build script
@@ -26,16 +24,3 @@ jobs:
         run: yarn build
         env:
           VITEPRESS_BASE: /pinguinoide.github.io/
-
-      # please check out the docs of the workflow for more details
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          # deploy to gh-pages branch
-          target_branch: gh-pages
-          # deploy the default output dir of VitePress
-          build_dir: site/.vitepress/dist
-        env:
-          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
